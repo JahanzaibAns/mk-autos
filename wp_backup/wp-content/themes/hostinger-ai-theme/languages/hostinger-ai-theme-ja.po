@@ -1,0 +1,2201 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger AI theme 1.0.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hostinger-ai-"
+"theme\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-18T09:12:04+00:00\n"
+"PO-Revision-Date: 2025-12-16 07:33+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-ai-theme\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.7.2; wp-6.8"
+
+#: includes/Admin/AdminTranslations.php:10
+msgid ""
+"<span style=\"display: flex; flex-direction: column; gap: 8px;\"><h3 "
+"style=\"margin:0; font-size:16px\">Site couldn’t be created</h3> <p "
+"style=\"margin-top:0; font-size:14px; color:#727586\">That’s because of an "
+"issue on our end. Try creating your site again. </p></span>"
+msgstr ""
+"<span style=\"display: flex; flex-direction: column; gap: 8px;\"><h3 "
+"style=\"margin:0;font-size:16px\">サイトを作成できませんでした</h3> <p style=\"margin-top:"
+"0; font-size:14px; color:#727586\">"
+"当社側の問題によりこのエラーが発生しました。もう一度サイトを作成してみてください。</p></span"
+
+#: includes/Settings/Theme.php:97
+msgid "Adjust how elements are displayed on your website:"
+msgstr "Webサイト上で要素がどのように表示されるかを調整します："
+
+#: includes/Admin/AdminTranslations.php:18
+msgid "Affiliate marketing site"
+msgstr "アフィリエイト・マーケティング・サイト"
+
+#: includes/Builder/Woo/i18n/countries.php:5
+#, fuzzy
+msgid "Afghanistan"
+msgstr "アフガニスタン"
+
+#: includes/Admin/AdminTranslations.php:11 includes/Admin/Menu.php:21
+#: includes/Admin/Menu.php:22
+msgid "AI Website Creation"
+msgstr "AI Webサイト制作"
+
+#: includes/Builder/Woo/i18n/countries.php:7
+#, fuzzy
+msgid "Albania"
+msgstr "アルバニア"
+
+#: includes/Builder/Woo/i18n/countries.php:8
+#, fuzzy
+msgid "Algeria"
+msgstr "アルジェリア"
+
+#: includes/Builder/NavigationBuilder.php:205
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: includes/Builder/Woo/i18n/countries.php:9
+#, fuzzy
+msgid "American Samoa"
+msgstr "米領サモア"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:78
+#: includes/Elementor/WidgetManager.php:55
+msgid "An error occurred. Please try again later."
+msgstr "エラーが発生しました。後ほどもう一度お試しください。"
+
+#: includes/Builder/Woo/i18n/countries.php:10
+#, fuzzy
+msgid "Andorra"
+msgstr "アンドラ"
+
+#: includes/Builder/Woo/i18n/countries.php:11
+#, fuzzy
+msgid "Angola"
+msgstr "アンゴラ"
+
+#: includes/Builder/Woo/i18n/countries.php:12
+#, fuzzy
+msgid "Anguilla"
+msgstr "アングィラ"
+
+#: includes/Builder/Woo/i18n/countries.php:13
+#, fuzzy
+msgid "Antarctica"
+msgstr "南極大陸"
+
+#: includes/Builder/Woo/i18n/countries.php:14
+#, fuzzy
+msgid "Antigua and Barbuda"
+msgstr "アンティグア・バーブーダ"
+
+#: includes/Builder/Woo/i18n/countries.php:15
+#, fuzzy
+msgid "Argentina"
+msgstr "アルゼンチン"
+
+#: includes/Builder/Woo/i18n/countries.php:16
+#, fuzzy
+msgid "Armenia"
+msgstr "アルメニア"
+
+#: includes/Builder/Woo/i18n/countries.php:17
+#, fuzzy
+msgid "Aruba"
+msgstr "アルバ"
+
+#. %s php version
+#: functions.php:40
+msgid "Attention:"
+msgstr "注："
+
+#: includes/Builder/Woo/i18n/countries.php:18
+#, fuzzy
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: includes/Builder/Woo/i18n/countries.php:19
+#, fuzzy
+msgid "Austria"
+msgstr "オーストリア"
+
+#: includes/Builder/Woo/i18n/countries.php:20
+#, fuzzy
+msgid "Azerbaijan"
+msgstr "アゼルバイジャン"
+
+#: includes/Admin/AdminTranslations.php:26
+msgid "Back"
+msgstr "戻る"
+
+#: includes/Builder/Woo/i18n/countries.php:21
+#, fuzzy
+msgid "Bahamas"
+msgstr "バハマ"
+
+#: includes/Builder/Woo/i18n/countries.php:22
+#, fuzzy
+msgid "Bahrain"
+msgstr "バーレーン"
+
+#: includes/Builder/Woo/i18n/countries.php:23
+#, fuzzy
+msgid "Bangladesh"
+msgstr "バングラデシュ"
+
+#: includes/Builder/Woo/i18n/countries.php:24
+#, fuzzy
+msgid "Barbados"
+msgstr "バルバドス"
+
+#: includes/Builder/Woo/i18n/countries.php:25
+#, fuzzy
+msgid "Belarus"
+msgstr "ベラルーシ"
+
+#: includes/Builder/Woo/i18n/countries.php:27
+#, fuzzy
+msgid "Belau"
+msgstr "ベラウ"
+
+#: includes/Builder/Woo/i18n/countries.php:26
+#, fuzzy
+msgid "Belgium"
+msgstr "ベルギー"
+
+#: includes/Builder/Woo/i18n/countries.php:28
+#, fuzzy
+msgid "Belize"
+msgstr "ベリーズ"
+
+#: includes/Builder/Woo/i18n/countries.php:29
+#, fuzzy
+msgid "Benin"
+msgstr "ベナン"
+
+#: includes/Builder/Woo/i18n/countries.php:30
+#, fuzzy
+msgid "Bermuda"
+msgstr "バーミューダ"
+
+#: includes/Builder/Woo/i18n/countries.php:31
+#, fuzzy
+msgid "Bhutan"
+msgstr "ブータン"
+
+#: gutenberg-blocks/AiContent/block.json:1
+#, fuzzy
+msgctxt "block description"
+msgid "A block for AI-powered content generation and regeneration"
+msgstr "AIによるコンテンツ生成と再生のためのブロック"
+
+#: gutenberg-blocks/Booking/block.json:1
+msgctxt "block description"
+msgid "A block with booking form integration"
+msgstr "予約フォームが統合されたブロック"
+
+#: gutenberg-blocks/ContactForm/block.json:1
+#, fuzzy
+msgctxt "block description"
+msgid "A customizable contact form for your website"
+msgstr "ウェブサイト用のカスタマイズ可能なお問い合わせフォーム"
+
+#: includes/Admin/AdminTranslations.php:51
+#, fuzzy
+msgid "Block editor"
+msgstr "ブロックエディター"
+
+#: gutenberg-blocks/AiContent/block.json:1
+#, fuzzy
+msgctxt "block title"
+msgid "AI Content Generator"
+msgstr "AIコンテンツ・ジェネレーター"
+
+#: gutenberg-blocks/Booking/block.json:1
+msgctxt "block title"
+msgid "Booking Block"
+msgstr "予約ブロック"
+
+#: gutenberg-blocks/ContactForm/block.json:1
+#, fuzzy
+msgctxt "block title"
+msgid "Contact Form"
+msgstr "お問い合わせフォーム"
+
+#: includes/Admin/AdminTranslations.php:20
+msgid "Blog"
+msgstr "ブログ"
+
+#: includes/Elementor/Widgets/BlogPostsWidget.php:18
+#, fuzzy
+msgid "Blog Posts"
+msgstr "ブログ記事"
+
+#: includes/Builder/Woo/i18n/countries.php:32
+#, fuzzy
+msgid "Bolivia"
+msgstr "ボリビア"
+
+#: includes/Builder/Woo/i18n/countries.php:33
+#, fuzzy
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "ボネール島、セント・ユースタティウス島、サバ島"
+
+#: includes/Admin/AdminTranslations.php:22
+msgid "Booking"
+msgstr "予約"
+
+#: gutenberg-blocks/Booking/Booking.php:76
+msgid "Bookings"
+msgstr "予約"
+
+#: includes/Builder/Woo/i18n/countries.php:34
+#, fuzzy
+msgid "Bosnia and Herzegovina"
+msgstr "ボスニア・ヘルツェゴビナ"
+
+#: includes/Builder/Woo/i18n/countries.php:35
+#, fuzzy
+msgid "Botswana"
+msgstr "ボツワナ"
+
+#: includes/Builder/Woo/i18n/countries.php:36
+#, fuzzy
+msgid "Bouvet Island"
+msgstr "ブーベ島"
+
+#: includes/Admin/AdminTranslations.php:13
+msgid "Brand name"
+msgstr "ブランド名"
+
+#: includes/Builder/Woo/i18n/countries.php:37
+#, fuzzy
+msgid "Brazil"
+msgstr "ブラジル"
+
+#: includes/Builder/Woo/i18n/countries.php:38
+#, fuzzy
+msgid "British Indian Ocean Territory"
+msgstr "英領インド洋地域"
+
+#: includes/Builder/Woo/i18n/countries.php:39
+#, fuzzy
+msgid "Brunei"
+msgstr "ブルネイ"
+
+#: includes/Admin/AdminTranslations.php:50
+#, fuzzy
+msgid "Builder type"
+msgstr "ビルダー・タイプ"
+
+#: includes/Admin/AdminTranslations.php:30
+msgid "Building content"
+msgstr "コンテンツの構築中"
+
+#: includes/Builder/Woo/i18n/countries.php:40
+#, fuzzy
+msgid "Bulgaria"
+msgstr "ブルガリア"
+
+#: includes/Builder/Woo/i18n/countries.php:41
+#, fuzzy
+msgid "Burkina Faso"
+msgstr "ブルキナファソ"
+
+#: includes/Builder/Woo/i18n/countries.php:42
+#, fuzzy
+msgid "Burundi"
+msgstr "ブルンジ"
+
+#: includes/Admin/AdminTranslations.php:17
+msgid "Business and services"
+msgstr "ビジネスおよびサービス"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:108
+#, fuzzy
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: includes/Builder/Woo/i18n/countries.php:43
+#, fuzzy
+msgid "Cambodia"
+msgstr "カンボジア"
+
+#: includes/Builder/Woo/i18n/countries.php:44
+#, fuzzy
+msgid "Cameroon"
+msgstr "カメルーン"
+
+#: includes/Builder/Woo/i18n/countries.php:45
+#, fuzzy
+msgid "Canada"
+msgstr "カナダ"
+
+#: includes/Admin/AdminTranslations.php:39
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/Builder/Woo/i18n/countries.php:46
+#, fuzzy
+msgid "Cape Verde"
+msgstr "カーボベルデ"
+
+#: includes/Builder/WebsiteBuilder.php:408
+#, fuzzy
+msgid "Cart"
+msgstr "カート"
+
+#: includes/Builder/Woo/i18n/countries.php:47
+#, fuzzy
+msgid "Cayman Islands"
+msgstr "ケイマン諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:48
+#, fuzzy
+msgid "Central African Republic"
+msgstr "中央アフリカ共和国"
+
+#: includes/Builder/Woo/i18n/countries.php:49
+#, fuzzy
+msgid "Chad"
+msgstr "チャド"
+
+#: includes/Settings/Theme.php:113
+msgid "Check this box to hide the header element on all pages"
+msgstr "すべてのページでヘッダー要素を非表示にするには、このボックスをチェックしてください。"
+
+#: includes/Builder/WebsiteBuilder.php:417
+#, fuzzy
+msgid "Checkout"
+msgstr "チェックアウト"
+
+#: includes/Builder/Woo/i18n/countries.php:50
+#, fuzzy
+msgid "Chile"
+msgstr "チリ"
+
+#: includes/Builder/Woo/i18n/countries.php:51
+#, fuzzy
+msgid "China"
+msgstr "中国"
+
+#: includes/Admin/AdminTranslations.php:47
+#, fuzzy
+msgid "Choose your site’s language"
+msgstr "サイトの言語を選択する"
+
+#: includes/Builder/Woo/i18n/countries.php:52
+#, fuzzy
+msgid "Christmas Island"
+msgstr "クリスマス島"
+
+#: includes/Builder/Woo/i18n/countries.php:53
+#, fuzzy
+msgid "Cocos (Keeling) Islands"
+msgstr "ココス（キーリング）諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:54
+#, fuzzy
+msgid "Colombia"
+msgstr "コロンビア"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Color 1 (Section backgrounds)"
+msgstr "カラー1（セクションの背景）"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Color 2 (Section backgrounds)"
+msgstr "カラー2（セクションの背景）"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Color 3 (Button background)"
+msgstr "カラー3（ボタン背景）"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Dark (Text on Light and Color 1)"
+msgstr "ダーク（ライトとカラー1をテキストに適用）"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Grey (Form borders)"
+msgstr "グレー（フォームの境界線）"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Light (Text on Color 2 and Gradient)"
+msgstr "ライト（カラー2とグラデーションをテキストに適用）"
+
+#: includes/Builder/Woo/i18n/countries.php:55
+#, fuzzy
+msgid "Comoros"
+msgstr "コモロ"
+
+#: includes/Builder/Woo/i18n/countries.php:56
+#, fuzzy
+msgid "Congo (Brazzaville)"
+msgstr "コンゴ（ブラザビル）"
+
+#: includes/Builder/Woo/i18n/countries.php:57
+#, fuzzy
+msgid "Congo (Kinshasa)"
+msgstr "コンゴ（キンシャサ）"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:17
+#, fuzzy
+msgid "Contact Form"
+msgstr "お問い合わせフォーム"
+
+#: includes/Builder/NavigationBuilder.php:351
+msgid "Contacts"
+msgstr "連絡先"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:50
+#: includes/Elementor/Widgets/BlogPostsWidget.php:37
+#, fuzzy
+msgid "Content"
+msgstr "内容"
+
+#: includes/Rest/BlockTypeRoutes.php:256
+#, fuzzy
+msgid "Content generation failed"
+msgstr "コンテンツ生成に失敗"
+
+#: includes/Admin/AdminTranslations.php:42
+msgid "Continue"
+msgstr "続ける"
+
+#: includes/Builder/Woo/i18n/countries.php:58
+#, fuzzy
+msgid "Cook Islands"
+msgstr "クック諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:59
+#, fuzzy
+msgid "Costa Rica"
+msgstr "コスタリカ"
+
+#: includes/Admin/AdminTranslations.php:24
+#, fuzzy
+msgid "Country"
+msgstr "国名"
+
+#: includes/Admin/AdminTranslations.php:25
+msgid "Create"
+msgstr "作成"
+
+#: includes/Admin/AdminTranslations.php:31
+msgid "Create again"
+msgstr "再作成する"
+
+#: includes/Builder/Woo/i18n/countries.php:60
+#, fuzzy
+msgid "Croatia"
+msgstr "クロアチア"
+
+#: includes/Builder/Woo/i18n/countries.php:61
+#, fuzzy
+msgid "Cuba"
+msgstr "キューバ"
+
+#: includes/Builder/Woo/i18n/countries.php:62
+#, fuzzy
+msgid "Cura&ccedil;ao"
+msgstr "キュラーズ"
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "No title"
+msgstr "タイトルなし"
+
+#: includes/Builder/Woo/i18n/countries.php:63
+#, fuzzy
+msgid "Cyprus"
+msgstr "キプロス"
+
+#: includes/Builder/Woo/i18n/countries.php:64
+#, fuzzy
+msgid "Czech Republic"
+msgstr "チェコ共和国"
+
+#: gutenberg-blocks/Booking/Booking.php:85
+msgid "Date"
+msgstr "日付"
+
+#: includes/Builder/Woo/i18n/countries.php:65
+#, fuzzy
+msgid "Denmark"
+msgstr "デンマーク"
+
+#: includes/Admin/AdminTranslations.php:23
+#: includes/Admin/AdminTranslations.php:55
+#: includes/Elementor/Widgets/ContactFormWidget.php:95
+msgid "Description"
+msgstr "説明"
+
+#: includes/Rest/BlockTypeRoutes.php:106 includes/Rest/BlockTypeRoutes.php:338
+#, fuzzy
+msgid "Description is required."
+msgstr "説明は必須。"
+
+#: includes/Settings/Theme.php:56
+msgid "Display Settings"
+msgstr "表示設定"
+
+#: includes/Builder/Woo/i18n/countries.php:66
+#, fuzzy
+msgid "Djibouti"
+msgstr "ジブチ"
+
+#: includes/Admin/Surveys.php:33
+msgid "Do you have any comments/suggestions to improve our AI tools?"
+msgstr "当社のAIツールを改善するためのコメントや提案はありますか？"
+
+#: includes/Builder/Woo/i18n/countries.php:67
+#, fuzzy
+msgid "Dominica"
+msgstr "ドミニカ"
+
+#: includes/Builder/Woo/i18n/countries.php:68
+#, fuzzy
+msgid "Dominican Republic"
+msgstr "ドミニカ共和国"
+
+#: includes/Builder/Woo/i18n/countries.php:69
+#, fuzzy
+msgid "Ecuador"
+msgstr "エクアドル"
+
+#: includes/Hooks.php:148 includes/Admin/AdminTranslations.php:32
+msgid "Edit site"
+msgstr "サイトを編集"
+
+#: includes/Builder/Woo/i18n/countries.php:70
+#, fuzzy
+msgid "Egypt"
+msgstr "エジプト"
+
+#: includes/Builder/Woo/i18n/countries.php:71
+#, fuzzy
+msgid "El Salvador"
+msgstr "エルサルバドル"
+
+#: includes/Admin/AdminTranslations.php:52
+#, fuzzy
+msgid "Elementor"
+msgstr "エレメンタ"
+
+#: includes/Admin/AdminTranslations.php:54
+#, fuzzy
+msgid ""
+"Elementor is an easy drag-and-drop builder, while the WordPress Block Editor "
+"gives pros more flexibility"
+msgstr "Elementorはドラッグアンドドロップで簡単に作成でき、WordPress Block Editorはより柔軟性があります。"
+
+#: includes/Shortcodes/ShortcodesManager.php:25
+#: includes/Elementor/Widgets/ContactFormWidget.php:162
+msgid "Email"
+msgstr "メールアドレス"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:123
+#, fuzzy
+msgid ""
+"Email address where form submissions will be sent. Defaults to WordPress "
+"admin email."
+msgstr "フォームの送信先メールアドレス。デフォルトは WordPress 管理者のメールアドレスです。"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:160
+#, fuzzy
+msgid "Email Label"
+msgstr "Eメールラベル"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:169
+#, fuzzy
+msgid "Email Placeholder"
+msgstr "電子メール プレースホルダ"
+
+#: includes/Admin/AdminTranslations.php:34
+msgid "Enter at least 11 characters"
+msgstr "11文字以上入力してください"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:111
+#, fuzzy
+msgid "Enter button text"
+msgstr "ボタンテキストを入力する"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:98
+#, fuzzy
+msgid "Enter form description"
+msgstr "フォームの説明を入力"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:73
+#, fuzzy
+msgid "Enter form title"
+msgstr "フォームのタイトルを入力"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:122
+#, fuzzy
+msgid "Enter recipient email address"
+msgstr "受信者のメールアドレスを入力"
+
+#: includes/Builder/Woo/i18n/countries.php:72
+#, fuzzy
+msgid "Equatorial Guinea"
+msgstr "赤道ギニア"
+
+#: includes/Builder/Woo/i18n/countries.php:73
+#, fuzzy
+msgid "Eritrea"
+msgstr "エリトリア"
+
+#: includes/Builder/Woo/i18n/countries.php:74
+#, fuzzy
+msgid "Estonia"
+msgstr "エストニア"
+
+#: includes/Builder/Woo/i18n/countries.php:216
+#, fuzzy
+msgid "Eswatini"
+msgstr "エスワティニ"
+
+#: includes/Builder/Woo/i18n/countries.php:75
+#, fuzzy
+msgid "Ethiopia"
+msgstr "エチオピア"
+
+#: includes/Admin/AdminTranslations.php:37
+msgid "Existing content will be deleted"
+msgstr "既存のコンテンツは削除されます"
+
+#: includes/Admin/Templates/featured-image-metabox.php:7
+msgid "External image can be used to show featured image."
+msgstr "外部画像をアイキャッチ画像として使用できます。"
+
+#: includes/Admin/Templates/featured-image-metabox.php:12
+msgid "External Image URL"
+msgstr "外部画像URL"
+
+#: includes/Rest/BlockTypeRoutes.php:210
+#, fuzzy
+msgid ""
+"Failed to generate content. Please try again with a different description."
+msgstr "コンテンツの生成に失敗しました。別の説明で再試行してください。"
+
+#: includes/Rest/BlockTypeRoutes.php:138
+#, fuzzy
+msgid "Failed to generate page content."
+msgstr "ページ・コンテンツの生成に失敗しました。"
+
+#: includes/Rest/BlockTypeRoutes.php:170
+#, fuzzy
+msgid ""
+"Failed to generate page content. Please try again with a different "
+"description."
+msgstr "ページコンテンツの生成に失敗しました。別の説明で再試行してください。"
+
+#: includes/Rest/BlockTypeRoutes.php:130
+#, fuzzy
+msgid "Failed to generate page structure."
+msgstr "ページ構造の生成に失敗しました。"
+
+#: includes/Rest/BlockTypeRoutes.php:393
+#, fuzzy
+msgid "Failed to generate section content."
+msgstr "セクション・コンテンツの生成に失敗しました。"
+
+#: includes/Rest/BlockTypeRoutes.php:96
+#, fuzzy
+msgid ""
+"Failed to generate section content. Please try again with a different "
+"description."
+msgstr "セクションコンテンツの生成に失敗しました。別の説明で再試行してください。"
+
+#: includes/Rest/BlockTypeRoutes.php:399
+#, fuzzy
+msgid "Failed to merge content with structure."
+msgstr "コンテンツと構造のマージに失敗しました。"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:130
+#: includes/Elementor/Widgets/ContactFormWidget.php:335
+msgid "Failed to send email. Please try again later."
+msgstr "メールの送信に失敗しました。後ほどもう一度お試しください。"
+
+#: includes/Builder/Woo/i18n/countries.php:76
+#, fuzzy
+msgid "Falkland Islands"
+msgstr "フォークランド諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:77
+#, fuzzy
+msgid "Faroe Islands"
+msgstr "フェロー諸島"
+
+#: includes/Admin/Hooks.php:37
+msgid "Featured Image with URL"
+msgstr "アイキャッチ画像（URL付き）"
+
+#: includes/Builder/Woo/i18n/countries.php:78
+#, fuzzy
+msgid "Fiji"
+msgstr "フィジー"
+
+#: includes/Builder/Woo/i18n/countries.php:79
+#, fuzzy
+msgid "Finland"
+msgstr "フィンランド"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Catamaran"
+msgstr "カタマラン"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Caudex"
+msgstr "コーデックス"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Cormorant"
+msgstr "鵜"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DMサンズ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "DM Serif Display"
+msgstr "DMセリフ表示"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Fira Sans"
+msgstr "フィラ・サンス"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Gruppo"
+msgstr "グルッポ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM プレックス・モノ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Junge"
+msgstr "ユンゲ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Lato"
+msgstr "ラト"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Manrope"
+msgstr "マンロープ"
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Monospace"
+msgstr "等幅フォント"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr "モンセラット"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Nunito Sans"
+msgstr "ヌニト・サンス"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr "オープン・サン"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr "プレーフェア・ディスプレイ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr "ポピンズ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Prata"
+msgstr "プラタ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Prompt"
+msgstr "プロンプト"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Prosto One"
+msgstr "プロスト・ワン"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr "ロボト"
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Serif"
+msgstr "Serif"
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "System"
+msgstr "システム"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Titillium Web"
+msgstr "ティティリウム・ウェブ"
+
+#: theme.json:1
+#, fuzzy
+msgctxt "Font family name"
+msgid "Trirong"
+msgstr "トリロン"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr "大"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "中"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr "小"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XL"
+msgstr "XL"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:134
+#, fuzzy
+msgid "Form Fields"
+msgstr "フォームフィールド"
+
+#: includes/Builder/Woo/i18n/countries.php:80
+#, fuzzy
+msgid "France"
+msgstr "フランス"
+
+#: includes/Builder/Woo/i18n/countries.php:81
+#, fuzzy
+msgid "French Guiana"
+msgstr "フランス領ギアナ"
+
+#: includes/Builder/Woo/i18n/countries.php:82
+#, fuzzy
+msgid "French Polynesia"
+msgstr "フランス領ポリネシア"
+
+#: includes/Builder/Woo/i18n/countries.php:83
+#, fuzzy
+msgid "French Southern Territories"
+msgstr "フランス領南方領土"
+
+#: includes/Builder/Woo/i18n/countries.php:84
+#, fuzzy
+msgid "Gabon"
+msgstr "ガボン"
+
+#: includes/Builder/Woo/i18n/countries.php:85
+#, fuzzy
+msgid "Gambia"
+msgstr "ガンビア"
+
+#: includes/Admin/AdminTranslations.php:27
+msgid "Generating colors"
+msgstr "カラーの生成中"
+
+#: includes/Admin/AdminTranslations.php:29
+msgid "Generating content"
+msgstr "コンテンツの生成中"
+
+#: includes/Admin/AdminTranslations.php:28
+msgid "Generating structure"
+msgstr "構造の生成中"
+
+#: includes/Builder/Woo/i18n/countries.php:86
+#, fuzzy
+msgid "Georgia"
+msgstr "グルジア"
+
+#: includes/Builder/Woo/i18n/countries.php:87
+#, fuzzy
+msgid "Germany"
+msgstr "ドイツ"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:72
+#, fuzzy
+msgid "Get in Touch"
+msgstr "連絡先"
+
+#: includes/Builder/Woo/i18n/countries.php:88
+#, fuzzy
+msgid "Ghana"
+msgstr "ガーナ"
+
+#: includes/Builder/Woo/i18n/countries.php:89
+#, fuzzy
+msgid "Gibraltar"
+msgstr "ジブラルタル"
+
+#: includes/Admin/AdminTranslations.php:33
+msgid "Give us a minute"
+msgstr "少々お待ちください"
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Section background gradient"
+msgstr "セクション背景グラデーション"
+
+#: includes/Admin/AdminTranslations.php:36
+msgid "Great description! Feel free to add more details"
+msgstr "素晴らしいですね、さらに詳細を追加しましょう。"
+
+#: includes/Builder/Woo/i18n/countries.php:90
+#, fuzzy
+msgid "Greece"
+msgstr "ギリシャ"
+
+#: includes/Builder/Woo/i18n/countries.php:91
+#, fuzzy
+msgid "Greenland"
+msgstr "グリーンランド"
+
+#: includes/Builder/Woo/i18n/countries.php:92
+#, fuzzy
+msgid "Grenada"
+msgstr "グレナダ"
+
+#: includes/Builder/Woo/i18n/countries.php:93
+#, fuzzy
+msgid "Guadeloupe"
+msgstr "グアドループ"
+
+#: includes/Builder/Woo/i18n/countries.php:94
+#, fuzzy
+msgid "Guam"
+msgstr "グアム"
+
+#: includes/Builder/Woo/i18n/countries.php:95
+#, fuzzy
+msgid "Guatemala"
+msgstr "グアテマラ"
+
+#: includes/Builder/Woo/i18n/countries.php:96
+#, fuzzy
+msgid "Guernsey"
+msgstr "ガーンジー"
+
+#: includes/Builder/Woo/i18n/countries.php:97
+#, fuzzy
+msgid "Guinea"
+msgstr "ギニア"
+
+#: includes/Builder/Woo/i18n/countries.php:98
+#, fuzzy
+msgid "Guinea-Bissau"
+msgstr "ギニアビサウ"
+
+#: includes/Builder/Woo/i18n/countries.php:99
+#, fuzzy
+msgid "Guyana"
+msgstr "ガイアナ"
+
+#: includes/Builder/Woo/i18n/countries.php:100
+#, fuzzy
+msgid "Haiti"
+msgstr "ハイチ"
+
+#: includes/Builder/Woo/i18n/countries.php:101
+#, fuzzy
+msgid "Heard Island and McDonald Islands"
+msgstr "ハード島とマクドナルド諸島"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:61
+#: includes/Elementor/Widgets/ContactFormWidget.php:86
+#: includes/Elementor/Widgets/BlogPostsWidget.php:48
+#, fuzzy
+#| msgid "Ehime"
+msgid "Hide"
+msgstr "愛媛"
+
+#: includes/Settings/Theme.php:63
+msgid "Hide Header"
+msgstr "ヘッダーを非表示"
+
+#: includes/Builder/Woo/i18n/countries.php:102
+#, fuzzy
+msgid "Honduras"
+msgstr "ホンジュラス"
+
+#: includes/Builder/Woo/i18n/countries.php:103
+#, fuzzy
+msgid "Hong Kong"
+msgstr "香港"
+
+#. Author of the theme
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#. Name of the theme
+msgid "Hostinger AI theme"
+msgstr "Hostinger AIテーマ"
+
+#. Description of the theme
+msgid ""
+"Hostinger AI theme built with SEO and mobile responsiveness in mind, this "
+"theme ensures optimal performance and a better online presence."
+msgstr "Hostinger AIテーマは、SEOとモバイル対応を考慮して作られており、パフォーマンスとオンラインプレゼンスを向上します。"
+
+#: includes/Admin/Surveys.php:29
+msgid ""
+"How would you rate your experience using our AI website builder to create "
+"your site? (Scale 1-10)"
+msgstr "当社のAIサイト作成ツールを使用してサイトを作成した経験をどのように評価しますか？（1〜10）"
+
+#. Author URI of the theme
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com/jp"
+
+#: includes/Builder/Woo/i18n/countries.php:104
+#, fuzzy
+msgid "Hungary"
+msgstr "ハンガリー"
+
+#: gutenberg-blocks/ContactForm/render.php:18
+#: includes/Elementor/Widgets/ContactFormWidget.php:227
+msgid ""
+"I consent to use of provided personal data for the purpose of responding to "
+"the request as described in"
+msgstr "提供した個人情報が、次のリクエストに対応する目的で利用されることに同意します："
+
+#: includes/Builder/Woo/i18n/countries.php:105
+#, fuzzy
+msgid "Iceland"
+msgstr "アイスランド"
+
+#: includes/Admin/AdminTranslations.php:41
+#, fuzzy
+msgid "Improve description"
+msgstr "説明の改善"
+
+#: includes/Builder/Woo/i18n/countries.php:106
+#, fuzzy
+msgid "India"
+msgstr "インド"
+
+#: includes/Builder/Woo/i18n/countries.php:107
+#, fuzzy
+msgid "Indonesia"
+msgstr "インドネシア"
+
+#: includes/Rest/BlockTypeRoutes.php:357
+#, fuzzy
+msgid "Invalid block type response."
+msgstr "無効なブロックタイプの応答。"
+
+#: includes/Builder/Woo/i18n/countries.php:108
+#, fuzzy
+msgid "Iran"
+msgstr "イラン"
+
+#: includes/Builder/Woo/i18n/countries.php:109
+#, fuzzy
+msgid "Iraq"
+msgstr "イラク"
+
+#: includes/Builder/Woo/i18n/countries.php:110
+#, fuzzy
+msgid "Ireland"
+msgstr "アイルランド"
+
+#: includes/Builder/Woo/i18n/countries.php:111
+#, fuzzy
+msgid "Isle of Man"
+msgstr "マン島"
+
+#: includes/Builder/Woo/i18n/countries.php:112
+#, fuzzy
+msgid "Israel"
+msgstr "イスラエル"
+
+#: patterns/hidden-404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "この場所では何も見つかりませんでした。検索機能の使用をお勧めします。"
+
+#: includes/Builder/Woo/i18n/countries.php:113
+#, fuzzy
+msgid "Italy"
+msgstr "イタリア"
+
+#: includes/Builder/Woo/i18n/countries.php:114
+#, fuzzy
+msgid "Ivory Coast"
+msgstr "コートジボワール"
+
+#: includes/Builder/Woo/i18n/countries.php:115
+#, fuzzy
+msgid "Jamaica"
+msgstr "ジャマイカ"
+
+#: includes/Builder/Woo/i18n/countries.php:116
+#, fuzzy
+msgid "Japan"
+msgstr "日本"
+
+#: includes/Builder/Woo/i18n/countries.php:117
+#, fuzzy
+msgid "Jersey"
+msgstr "ジャージー"
+
+#: includes/Builder/Woo/i18n/countries.php:118
+#, fuzzy
+msgid "Jordan"
+msgstr "ヨルダン"
+
+#: includes/Builder/Woo/i18n/countries.php:119
+#, fuzzy
+msgid "Kazakhstan"
+msgstr "カザフスタン"
+
+#: includes/Builder/Woo/i18n/countries.php:120
+#, fuzzy
+msgid "Kenya"
+msgstr "ケニア"
+
+#: includes/Builder/Woo/i18n/countries.php:121
+#, fuzzy
+msgid "Kiribati"
+msgstr "キリバス"
+
+#: includes/Builder/Woo/i18n/countries.php:122
+#, fuzzy
+msgid "Kuwait"
+msgstr "クウェート"
+
+#: includes/Builder/Woo/i18n/countries.php:123
+#, fuzzy
+msgid "Kyrgyzstan"
+msgstr "キルギス"
+
+#: includes/Admin/AdminTranslations.php:21
+msgid "Landing"
+msgstr "ランディング"
+
+#: includes/Builder/Woo/i18n/countries.php:124
+#, fuzzy
+msgid "Laos"
+msgstr "ラオス"
+
+#: includes/Builder/Woo/i18n/countries.php:125
+#, fuzzy
+msgid "Latvia"
+msgstr "ラトビア"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:211
+#, fuzzy
+msgid "Leave empty to use default privacy policy text"
+msgstr "デフォルトのプライバシーポリシーテキストを使用する場合は、空のままにします。"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:212
+#, fuzzy
+msgid ""
+"Leave empty to use the default privacy policy text with automatic link "
+"generation."
+msgstr "自動リンク生成でデフォルトのプライバシーポリシーテキストを使用するには、空のままにします。"
+
+#: includes/Builder/Woo/i18n/countries.php:126
+#, fuzzy
+msgid "Lebanon"
+msgstr "レバノン"
+
+#: includes/Builder/Woo/i18n/countries.php:127
+#, fuzzy
+msgid "Lesotho"
+msgstr "レソト"
+
+#: includes/Admin/AdminTranslations.php:35
+msgid "Let us know more about your website to get the best result"
+msgstr "最適な結果を得るために、Webサイトについて詳しく教えてください。"
+
+#: includes/Builder/Woo/i18n/countries.php:128
+#, fuzzy
+msgid "Liberia"
+msgstr "リベリア"
+
+#: includes/Builder/Woo/i18n/countries.php:129
+#, fuzzy
+msgid "Libya"
+msgstr "リビア"
+
+#: includes/Builder/Woo/i18n/countries.php:130
+#, fuzzy
+msgid "Liechtenstein"
+msgstr "リヒテンシュタイン"
+
+#: includes/Builder/Woo/i18n/countries.php:131
+#, fuzzy
+msgid "Lithuania"
+msgstr "リトアニア"
+
+#: includes/Builder/Woo/i18n/countries.php:132
+#, fuzzy
+msgid "Luxembourg"
+msgstr "ルクセンブルク"
+
+#: includes/Builder/Woo/i18n/countries.php:133
+#, fuzzy
+msgid "Macao"
+msgstr "マカオ"
+
+#: includes/Builder/Woo/i18n/countries.php:135
+#, fuzzy
+msgid "Madagascar"
+msgstr "マダガスカル"
+
+#: includes/Builder/Woo/i18n/countries.php:136
+#, fuzzy
+msgid "Malawi"
+msgstr "マラウイ"
+
+#: includes/Builder/Woo/i18n/countries.php:137
+#, fuzzy
+msgid "Malaysia"
+msgstr "マレーシア"
+
+#: includes/Builder/Woo/i18n/countries.php:138
+#, fuzzy
+msgid "Maldives"
+msgstr "モルディブ"
+
+#: includes/Builder/Woo/i18n/countries.php:139
+#, fuzzy
+msgid "Mali"
+msgstr "マリ"
+
+#: includes/Builder/Woo/i18n/countries.php:140
+#, fuzzy
+msgid "Malta"
+msgstr "マルタ"
+
+#: includes/Builder/Woo/i18n/countries.php:141
+#, fuzzy
+msgid "Marshall Islands"
+msgstr "マーシャル諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:142
+#, fuzzy
+msgid "Martinique"
+msgstr "マルティニーク"
+
+#: includes/Builder/Woo/i18n/countries.php:143
+#, fuzzy
+msgid "Mauritania"
+msgstr "モーリタニア"
+
+#: includes/Builder/Woo/i18n/countries.php:144
+#, fuzzy
+msgid "Mauritius"
+msgstr "モーリシャス"
+
+#: includes/Builder/Woo/i18n/countries.php:145
+#, fuzzy
+msgid "Mayotte"
+msgstr "マヨット"
+
+#: includes/Builder/NavigationBuilder.php:350
+msgid "Menu"
+msgstr "メニュー"
+
+#: includes/Shortcodes/ShortcodesManager.php:26
+#: includes/Elementor/Widgets/ContactFormWidget.php:180
+msgid "Message"
+msgstr "メッセージ"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:178
+#, fuzzy
+msgid "Message Label"
+msgstr "メッセージラベル"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:187
+#, fuzzy
+msgid "Message Placeholder"
+msgstr "メッセージ・プレースホルダー"
+
+#: includes/Builder/Woo/i18n/countries.php:146
+#, fuzzy
+msgid "Mexico"
+msgstr "メキシコ"
+
+#: includes/Builder/Woo/i18n/countries.php:147
+#, fuzzy
+msgid "Micronesia"
+msgstr "ミクロネシア"
+
+#: includes/Builder/Woo/i18n/countries.php:148
+#, fuzzy
+msgid "Moldova"
+msgstr "モルドバ"
+
+#: includes/Builder/Woo/i18n/countries.php:149
+#, fuzzy
+msgid "Monaco"
+msgstr "モナコ"
+
+#: includes/Builder/Woo/i18n/countries.php:150
+#, fuzzy
+msgid "Mongolia"
+msgstr "モンゴル"
+
+#: includes/Builder/Woo/i18n/countries.php:151
+#, fuzzy
+msgid "Montenegro"
+msgstr "モンテネグロ"
+
+#: includes/Builder/Woo/i18n/countries.php:152
+#, fuzzy
+msgid "Montserrat"
+msgstr "モンセラット"
+
+#: includes/Builder/Woo/i18n/countries.php:153
+#, fuzzy
+msgid "Morocco"
+msgstr "モロッコ"
+
+#: includes/Builder/Woo/i18n/countries.php:154
+#, fuzzy
+msgid "Mozambique"
+msgstr "モザンビーク"
+
+#: includes/Builder/WebsiteBuilder.php:426
+#, fuzzy
+msgid "My Account"
+msgstr "マイアカウント"
+
+#: includes/Builder/Woo/i18n/countries.php:155
+#, fuzzy
+msgid "Myanmar"
+msgstr "ミャンマー"
+
+#: includes/Shortcodes/ShortcodesManager.php:24
+#: includes/Elementor/Widgets/ContactFormWidget.php:144
+msgid "Name"
+msgstr "名前"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:142
+#, fuzzy
+msgid "Name Label"
+msgstr "ネームラベル"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:151
+#, fuzzy
+msgid "Name Placeholder"
+msgstr "名前プレースホルダー"
+
+#: includes/Builder/Woo/i18n/countries.php:156
+#, fuzzy
+msgid "Namibia"
+msgstr "ナミビア"
+
+#: includes/Builder/Woo/i18n/countries.php:157
+#, fuzzy
+msgid "Nauru"
+msgstr "ナウル"
+
+#: includes/Builder/Woo/i18n/countries.php:158
+#, fuzzy
+msgid "Nepal"
+msgstr "ネパール"
+
+#: includes/Builder/Woo/i18n/countries.php:159
+#, fuzzy
+msgid "Netherlands"
+msgstr "オランダ"
+
+#: includes/Builder/Woo/i18n/countries.php:160
+#, fuzzy
+msgid "New Caledonia"
+msgstr "ニューカレドニア"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:108
+#: includes/Elementor/Widgets/ContactFormWidget.php:313
+msgid "New Contact Form Submission"
+msgstr "新規のお問い合わせフォームの送信内容"
+
+#: includes/Builder/Woo/i18n/countries.php:161
+#, fuzzy
+msgid "New Zealand"
+msgstr "ニュージーランド"
+
+#: includes/Builder/Woo/i18n/countries.php:162
+#, fuzzy
+msgid "Nicaragua"
+msgstr "ニカラグア"
+
+#: includes/Builder/Woo/i18n/countries.php:163
+#, fuzzy
+msgid "Niger"
+msgstr "ニジェール"
+
+#: includes/Builder/Woo/i18n/countries.php:164
+#, fuzzy
+msgid "Nigeria"
+msgstr "ナイジェリア"
+
+#: includes/Builder/Woo/i18n/countries.php:165
+#, fuzzy
+msgid "Niue"
+msgstr "ニウエ"
+
+#: gutenberg-blocks/Booking/Booking.php:79
+msgid "No bookings yet."
+msgstr "予約はまだありません。"
+
+#: includes/Elementor/Widgets/BlogPostsWidget.php:72
+#, fuzzy
+msgid "No posts found. Please create some blog posts."
+msgstr "記事が見つかりません。ブログ記事を作成してください。"
+
+#: patterns/query.php:24
+msgid "No results found."
+msgstr "結果は見つかりませんでした"
+
+#: includes/Builder/Woo/i18n/countries.php:166
+#, fuzzy
+msgid "Norfolk Island"
+msgstr "ノーフォーク島"
+
+#: includes/Builder/Woo/i18n/countries.php:168
+#, fuzzy
+msgid "North Korea"
+msgstr "北朝鮮"
+
+#: includes/Builder/Woo/i18n/countries.php:134
+#, fuzzy
+msgid "North Macedonia"
+msgstr "北マケドニア"
+
+#: includes/Builder/Woo/i18n/countries.php:167
+#, fuzzy
+msgid "Northern Mariana Islands"
+msgstr "北マリアナ諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:169
+#, fuzzy
+msgid "Norway"
+msgstr "ノルウェー"
+
+#: includes/Builder/Woo/i18n/countries.php:170
+#, fuzzy
+msgid "Oman"
+msgstr "オマーン"
+
+#: includes/Admin/AdminTranslations.php:19
+#, fuzzy
+msgid "Online store"
+msgstr "オンラインストア"
+
+#: includes/Admin/AdminTranslations.php:15
+msgid "Other"
+msgstr "その他"
+
+#: patterns/hidden-404.php:13
+msgid "Page not found"
+msgstr "ページが見つかりませんでした"
+
+#: includes/Builder/Woo/i18n/countries.php:171
+#, fuzzy
+msgid "Pakistan"
+msgstr "パキスタン"
+
+#: includes/Builder/Woo/i18n/countries.php:172
+#, fuzzy
+msgid "Palestinian Territory"
+msgstr "パレスチナ自治区"
+
+#: includes/Builder/Woo/i18n/countries.php:173
+#, fuzzy
+msgid "Panama"
+msgstr "パナマ"
+
+#: includes/Builder/Woo/i18n/countries.php:174
+#, fuzzy
+msgid "Papua New Guinea"
+msgstr "パプアニューギニア"
+
+#: includes/Builder/Woo/i18n/countries.php:175
+#, fuzzy
+msgid "Paraguay"
+msgstr "パラグアイ"
+
+#: patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/hidden-post-meta.php:2
+msgctxt "Pattern title"
+msgid "Hidden post meta"
+msgstr "投稿メタ（非表示）"
+
+#: patterns/query.php:2
+msgctxt "Pattern title"
+msgid "Query"
+msgstr "Query"
+
+#: includes/Builder/Woo/i18n/countries.php:176
+#, fuzzy
+msgid "Peru"
+msgstr "ペルー"
+
+#: includes/Builder/Woo/i18n/countries.php:177
+#, fuzzy
+msgid "Philippines"
+msgstr "フィリピン"
+
+#: includes/Builder/Woo/i18n/countries.php:178
+#, fuzzy
+msgid "Pitcairn"
+msgstr "ピトケアン"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:101
+#: includes/Elementor/Widgets/ContactFormWidget.php:306
+msgid "Please agree with privacy policy."
+msgstr "プライバシーポリシーに同意する必要があります。"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:105
+#: includes/Elementor/Widgets/ContactFormWidget.php:310
+msgid "Please enter a valid email address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: includes/Builder/Woo/i18n/countries.php:179
+#, fuzzy
+msgid "Poland"
+msgstr "ポーランド"
+
+#: includes/Admin/AdminTranslations.php:16
+msgid "Portfolio"
+msgstr "ポートフォリオ"
+
+#: includes/Builder/Woo/i18n/countries.php:180
+#, fuzzy
+msgid "Portugal"
+msgstr "ポルトガル"
+
+#: gutenberg-blocks/ContactForm/render.php:20
+#: includes/Elementor/Widgets/ContactFormWidget.php:200
+#: includes/Elementor/Widgets/ContactFormWidget.php:229
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:208
+#, fuzzy
+#| msgid "Privacy Policy URL"
+msgid "Privacy Policy Text"
+msgstr "プライバシーポリシーURL"
+
+#: includes/Rest/BuilderRoutes.php:251
+msgid "Problem building content."
+msgstr "コンテンツの作成中に問題が発生しました。"
+
+#: includes/Rest/BuilderRoutes.php:207
+msgid "Problem generating content."
+msgstr "コンテンツの生成中に問題が発生しました。"
+
+#: includes/Builder/Woo/i18n/countries.php:181
+#, fuzzy
+msgid "Puerto Rico"
+msgstr "プエルトリコ"
+
+#: includes/Builder/Woo/i18n/countries.php:182
+#, fuzzy
+msgid "Qatar"
+msgstr "カタール"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:118
+#, fuzzy
+msgid "Recipient Email Address"
+msgstr "受信者メールアドレス"
+
+#: includes/Builder/Woo/i18n/countries.php:183
+#, fuzzy
+msgid "Reunion"
+msgstr "再会"
+
+#: includes/Builder/Woo/i18n/countries.php:184
+#, fuzzy
+msgid "Romania"
+msgstr "ルーマニア"
+
+#: includes/Builder/Woo/i18n/countries.php:185
+#, fuzzy
+msgid "Russia"
+msgstr "ロシア"
+
+#: includes/Builder/Woo/i18n/countries.php:186
+#, fuzzy
+msgid "Rwanda"
+msgstr "ルワンダ"
+
+#: includes/Builder/Woo/i18n/countries.php:196
+#, fuzzy
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+
+#: includes/Builder/Woo/i18n/countries.php:187
+#, fuzzy
+msgid "Saint Barth&eacute;lemy"
+msgstr "サン・バルスレミー"
+
+#: includes/Builder/Woo/i18n/countries.php:188
+#, fuzzy
+msgid "Saint Helena"
+msgstr "セントヘレナ"
+
+#: includes/Builder/Woo/i18n/countries.php:189
+#, fuzzy
+msgid "Saint Kitts and Nevis"
+msgstr "セントクリストファー・ネイビス"
+
+#: includes/Builder/Woo/i18n/countries.php:190
+#, fuzzy
+msgid "Saint Lucia"
+msgstr "セントルシア"
+
+#: includes/Builder/Woo/i18n/countries.php:192
+#, fuzzy
+msgid "Saint Martin (Dutch part)"
+msgstr "セント・マーチン島（オランダ領）"
+
+#: includes/Builder/Woo/i18n/countries.php:191
+#, fuzzy
+msgid "Saint Martin (French part)"
+msgstr "セント・マーチン島（フランス領）"
+
+#: includes/Builder/Woo/i18n/countries.php:193
+#, fuzzy
+msgid "Saint Pierre and Miquelon"
+msgstr "サンピエール島・ミクロン島"
+
+#: includes/Builder/Woo/i18n/countries.php:194
+#, fuzzy
+msgid "Saint Vincent and the Grenadines"
+msgstr "セントビンセント・グレナディーン"
+
+#: includes/Builder/Woo/i18n/countries.php:250
+#, fuzzy
+msgid "Samoa"
+msgstr "サモア"
+
+#: includes/Builder/Woo/i18n/countries.php:195
+#, fuzzy
+msgid "San Marino"
+msgstr "サンマリノ"
+
+#: includes/Builder/Woo/i18n/countries.php:197
+#, fuzzy
+msgid "Saudi Arabia"
+msgstr "サウジアラビア"
+
+#: includes/Admin/AdminTranslations.php:53
+#, fuzzy
+msgid "Select editor"
+msgstr "エディタを選択"
+
+#: includes/Shortcodes/ShortcodesManager.php:23
+#: includes/Elementor/Widgets/ContactFormWidget.php:110
+msgid "Send Message"
+msgstr "メッセージを送信"
+
+#: includes/Builder/Woo/i18n/countries.php:198
+#, fuzzy
+msgid "Senegal"
+msgstr "セネガル"
+
+#: includes/Builder/Woo/i18n/countries.php:199
+#, fuzzy
+msgid "Serbia"
+msgstr "セルビア"
+
+#: includes/Builder/Woo/i18n/countries.php:200
+#, fuzzy
+msgid "Seychelles"
+msgstr "セーシェル"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:60
+#: includes/Elementor/Widgets/ContactFormWidget.php:85
+#: includes/Elementor/Widgets/BlogPostsWidget.php:47
+#, fuzzy
+msgid "Show"
+msgstr "ショー"
+
+#: includes/Elementor/Widgets/BlogPostsWidget.php:45
+#, fuzzy
+msgid "Show Date"
+msgstr "公演日"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:83
+#, fuzzy
+msgid "Show Description"
+msgstr "詳細を表示"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:58
+#, fuzzy
+msgid "Show Title"
+msgstr "タイトルを表示"
+
+#: includes/Builder/Woo/i18n/countries.php:201
+#, fuzzy
+msgid "Sierra Leone"
+msgstr "シエラレオネ"
+
+#: includes/Builder/Woo/i18n/countries.php:202
+#, fuzzy
+msgid "Singapore"
+msgstr "シンガポール"
+
+#: includes/Admin/AdminTranslations.php:46
+#, fuzzy
+msgid "Site Language"
+msgstr "サイトの言語"
+
+#: includes/Admin/AdminTranslations.php:49
+#, fuzzy
+msgid "Site setup"
+msgstr "サイト設定"
+
+#: includes/Builder/Woo/i18n/countries.php:203
+#, fuzzy
+msgid "Slovakia"
+msgstr "スロバキア"
+
+#: includes/Builder/Woo/i18n/countries.php:204
+#, fuzzy
+msgid "Slovenia"
+msgstr "スロベニア"
+
+#: includes/Builder/NavigationBuilder.php:352
+msgid "Socials"
+msgstr "ソーシャル"
+
+#: includes/Builder/Woo/i18n/countries.php:205
+#, fuzzy
+msgid "Solomon Islands"
+msgstr "ソロモン諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:206
+#, fuzzy
+msgid "Somalia"
+msgstr "ソマリア"
+
+#: includes/Rest/BuilderRoutes.php:89
+msgid "Sorry, something wrong with data."
+msgstr "申し訳ありませんが、データに問題があります。"
+
+#: includes/Builder/Woo/i18n/countries.php:207
+#, fuzzy
+msgid "South Africa"
+msgstr "南アフリカ"
+
+#: includes/Builder/Woo/i18n/countries.php:208
+#, fuzzy
+msgid "South Georgia/Sandwich Islands"
+msgstr "サウスジョージア/サンドイッチ諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:209
+#, fuzzy
+msgid "South Korea"
+msgstr "韓国"
+
+#: includes/Builder/Woo/i18n/countries.php:210
+#, fuzzy
+msgid "South Sudan"
+msgstr "南スーダン"
+
+#: includes/Builder/Woo/i18n/countries.php:211
+#, fuzzy
+msgid "Spain"
+msgstr "スペイン"
+
+#: includes/Builder/Woo/i18n/countries.php:212
+#, fuzzy
+msgid "Sri Lanka"
+msgstr "スリランカ"
+
+#: includes/Builder/NavigationBuilder.php:353
+#, fuzzy
+msgid "Subscribe to our newsletter"
+msgstr "ニュースレターを購読する"
+
+#: gutenberg-blocks/ContactForm/ContactForm.php:128
+#: includes/Elementor/Widgets/ContactFormWidget.php:333
+msgid "Successfully submitted!"
+msgstr "送信成功！"
+
+#: includes/Builder/Woo/i18n/countries.php:213
+#, fuzzy
+msgid "Sudan"
+msgstr "スーダン"
+
+#: includes/Admin/AdminTranslations.php:40
+#, fuzzy
+msgid "Suggest a description"
+msgstr "説明を提案する"
+
+#: includes/Builder/Woo/i18n/countries.php:214
+#, fuzzy
+msgid "Suriname"
+msgstr "スリナム"
+
+#: includes/Builder/Woo/i18n/countries.php:215
+#, fuzzy
+msgid "Svalbard and Jan Mayen"
+msgstr "スバールバル諸島とヤンマイエン島"
+
+#: includes/Builder/Woo/i18n/countries.php:217
+#, fuzzy
+msgid "Sweden"
+msgstr "スウェーデン"
+
+#: includes/Builder/Woo/i18n/countries.php:218
+#, fuzzy
+msgid "Switzerland"
+msgstr "スイス"
+
+#: includes/Builder/Woo/i18n/countries.php:219
+#, fuzzy
+msgid "Syria"
+msgstr "シリア"
+
+#: includes/Builder/Woo/i18n/countries.php:220
+#, fuzzy
+msgid "Taiwan"
+msgstr "台湾"
+
+#: includes/Builder/Woo/i18n/countries.php:221
+#, fuzzy
+msgid "Tajikistan"
+msgstr "タジキスタン"
+
+#: includes/Builder/Woo/i18n/countries.php:222
+#, fuzzy
+msgid "Tanzania"
+msgstr "タンザニア"
+
+#: includes/Admin/AdminTranslations.php:12
+msgid "Tell us about your site"
+msgstr "サイトの内容について教えてください"
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "フッター"
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Header"
+msgstr "ヘッダー"
+
+#: includes/Builder/Woo/i18n/countries.php:223
+#, fuzzy
+msgid "Thailand"
+msgstr "タイ"
+
+#: functions.php:40
+#, php-format
+msgid ""
+"The Hostinger Easy Onboarding plugin requires minimum PHP version of <b>"
+"%s</b>. "
+msgstr "Hostinger Easy Onboardingプラグインには、<b>%s</b>以上のPHPバージョンが必要となります。"
+
+#: includes/Settings/Theme.php:32 includes/Settings/Theme.php:33
+#: includes/Settings/Theme.php:125
+msgid "Theme Settings"
+msgstr "テーマ設定"
+
+#: includes/Admin/AdminTranslations.php:43
+msgid "This field is required"
+msgstr "このフィールドは必須です。"
+
+#: includes/Admin/AdminTranslations.php:45
+#, fuzzy
+#| msgid "This field should not be longer than 1024 symbols."
+msgid "This field should not be longer than 1500 symbols."
+msgstr "このフィールドは1024文字以下にする必要があります。"
+
+#: includes/Admin/AdminTranslations.php:44
+msgid "This field should not be longer than 255 symbols."
+msgstr "このフィールドは255文字以内で入力してください。"
+
+#: includes/Builder/Woo/i18n/countries.php:224
+#, fuzzy
+msgid "Timor-Leste"
+msgstr "東ティモール"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:70
+#, fuzzy
+#| msgid "Tete"
+msgid "Title"
+msgstr "テテ"
+
+#: includes/Builder/Woo/i18n/countries.php:225
+#, fuzzy
+msgid "Togo"
+msgstr "トーゴ"
+
+#: includes/Builder/Woo/i18n/countries.php:226
+#, fuzzy
+msgid "Tokelau"
+msgstr "トケラウ"
+
+#: includes/Builder/Woo/i18n/countries.php:227
+#, fuzzy
+msgid "Tonga"
+msgstr "トンガ"
+
+#: includes/Builder/Woo/i18n/countries.php:228
+#, fuzzy
+msgid "Trinidad and Tobago"
+msgstr "トリニダード・トバゴ"
+
+#: includes/Builder/Woo/i18n/countries.php:229
+#, fuzzy
+msgid "Tunisia"
+msgstr "チュニジア"
+
+#: includes/Builder/Woo/i18n/countries.php:230
+#, fuzzy
+msgid "Turkey"
+msgstr "トルコ"
+
+#: includes/Builder/Woo/i18n/countries.php:231
+#, fuzzy
+msgid "Turkmenistan"
+msgstr "トルクメニスタン"
+
+#: includes/Builder/Woo/i18n/countries.php:232
+#, fuzzy
+msgid "Turks and Caicos Islands"
+msgstr "タークス・カイコス諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:233
+#, fuzzy
+msgid "Tuvalu"
+msgstr "ツバル"
+
+#: includes/Builder/Woo/i18n/countries.php:234
+#, fuzzy
+msgid "Uganda"
+msgstr "ウガンダ"
+
+#: includes/Builder/Woo/i18n/countries.php:235
+#, fuzzy
+msgid "Ukraine"
+msgstr "ウクライナ"
+
+#: includes/Builder/Woo/i18n/countries.php:236
+#, fuzzy
+msgid "United Arab Emirates"
+msgstr "アラブ首長国連邦"
+
+#: includes/Builder/Woo/i18n/countries.php:237
+#, fuzzy
+msgid "United Kingdom (UK)"
+msgstr "イギリス（UK）"
+
+#: includes/Builder/Woo/i18n/countries.php:238
+#, fuzzy
+msgid "United States (US)"
+msgstr "アメリカ"
+
+#: includes/Builder/Woo/i18n/countries.php:239
+#, fuzzy
+msgid "United States (US) Minor Outlying Islands"
+msgstr "アメリカ合衆国（US）マイナー離島"
+
+#: includes/Builder/Woo/i18n/countries.php:240
+#, fuzzy
+msgid "Uruguay"
+msgstr "ウルグアイ"
+
+#: includes/Builder/Woo/i18n/countries.php:241
+#, fuzzy
+msgid "Uzbekistan"
+msgstr "ウズベキスタン"
+
+#: includes/Builder/Woo/i18n/countries.php:242
+#, fuzzy
+msgid "Vanuatu"
+msgstr "バヌアツ"
+
+#: includes/Builder/Woo/i18n/countries.php:243
+#, fuzzy
+msgid "Vatican"
+msgstr "バチカン"
+
+#: includes/Builder/Woo/i18n/countries.php:244
+#, fuzzy
+msgid "Venezuela"
+msgstr "ベネズエラ"
+
+#: includes/Builder/Woo/i18n/countries.php:245
+#, fuzzy
+msgid "Vietnam"
+msgstr "ベトナム"
+
+#: includes/Builder/Woo/i18n/countries.php:246
+#, fuzzy
+msgid "Virgin Islands (British)"
+msgstr "バージン諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:247
+#, fuzzy
+msgid "Virgin Islands (US)"
+msgstr "バージン諸島"
+
+#: includes/Builder/Woo/i18n/countries.php:248
+#, fuzzy
+msgid "Wallis and Futuna"
+msgstr "ウォリス・フテュナ"
+
+#: includes/Elementor/Widgets/ContactFormWidget.php:97
+#, fuzzy
+msgid ""
+"We'd love to hear from you. Send us a message and we'll respond as soon as "
+"possible."
+msgstr "ご連絡をお待ちしております。メッセージをお送りいただければ、できるだけ早く対応させていただきます。"
+
+#: includes/Admin/AdminTranslations.php:14
+msgid "Website type"
+msgstr "Webサイトの種類"
+
+#: includes/Builder/Woo/i18n/countries.php:249
+#, fuzzy
+msgid "Western Sahara"
+msgstr "西サハラ"
+
+#: includes/Shortcodes/ShortcodesManager.php:28
+#: includes/Elementor/Widgets/ContactFormWidget.php:171
+msgid "What's your email?"
+msgstr "-"
+
+#: includes/Shortcodes/ShortcodesManager.php:27
+#: includes/Elementor/Widgets/ContactFormWidget.php:153
+msgid "What's your name?"
+msgstr "-"
+
+#: gutenberg-blocks/ContactForm/render.php:22
+#: includes/Elementor/Widgets/ContactFormWidget.php:231
+#, fuzzy
+msgid "which I have read. I may withdraw my consent at any time."
+msgstr "を読みました。私はいつでも同意を撤回することができます。"
+
+#: includes/Shortcodes/ShortcodesManager.php:29
+#: includes/Elementor/Widgets/ContactFormWidget.php:189
+msgid "Write your message..."
+msgstr "メッセージを入力してください..."
+
+#: includes/Rest/BuilderRoutes.php:147 includes/Rest/BuilderRoutes.php:182
+#: includes/Rest/BuilderRoutes.php:235
+msgid "Wrong sequence of step execution."
+msgstr "ステップの実行順序が正しくありません。"
+
+#: includes/Builder/Woo/i18n/countries.php:251
+#, fuzzy
+msgid "Yemen"
+msgstr "イエメン"
+
+#. %s php version
+#: functions.php:44
+#, php-format
+msgid "You are running <b>%s</b> PHP version."
+msgstr "現在のPHPバージョンは<b>%s</b>です。"
+
+#: includes/Admin/AdminTranslations.php:38
+msgid ""
+"You have already generated content. Continuing will delete all previous "
+"content. Are you sure you want to proceed?"
+msgstr "すでにコンテンツが生成されています。続行すると、以前のコンテンツはすべて削除されます。本当に続行してもよろしいですか？"
+
+#: includes/Admin/AdminTranslations.php:48
+#, fuzzy
+msgid ""
+"Your site’s language will be changed to the selected language from this list,"
+" and all content will be generated in that language.”"
+msgstr "あなたのサイトの言語は、このリストから選択された言語に変更され、すべてのコンテンツはその言語で生成されます。\""
+
+#: includes/Builder/Woo/i18n/countries.php:252
+#, fuzzy
+msgid "Zambia"
+msgstr "ザンビア"
+
+#: includes/Builder/Woo/i18n/countries.php:253
+#, fuzzy
+msgid "Zimbabwe"
+msgstr "ジンバブエ"
+
+#: includes/Builder/Woo/i18n/countries.php:6
+#, fuzzy
+msgid "Åland Islands"
+msgstr "オーランド諸島"

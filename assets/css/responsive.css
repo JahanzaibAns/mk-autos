@@ -1,0 +1,174 @@
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        animation: slideIn 0.6s ease forwards;
+        width: 290px;
+        padding: 25px 0px;
+    }
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+            visibility: hidden;
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+    }
+    .navbar .dropdown-menu {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease, transform 0.6s ease, visibility 0.6s ease;
+       
+    }
+
+    .navbar-expand-xl .navbar-nav {
+        align-items: center;
+    }
+
+    
+}
+@media (min-width: 1199.98px) {
+	html {
+		font-size: 13px;
+	}
+    .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+}
+@media only screen and (max-width: 1920px) and (min-width: 1445px) {
+	.container {
+		max-width: 1450px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1445px) {
+	html {
+		font-size: 15px;
+	}
+	.hero_slider .swiper-slide-active .hero_main .hero_main_img_new {
+        right: 0;
+        bottom: -7rem;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+	html {
+		font-size: 14px;
+	}
+	
+	.nav-link {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+	html {
+		font-size: 13px;
+	}
+    
+}
+@media (max-width: 991.98px) {
+	html {
+		font-size: 12px;
+	}
+    .offcanvas {
+        height: 100dvh;
+    }
+    .hero_slider .swiper-slide-active .hero_main .hero_main_img_new{
+        display: none;
+    }
+    /*.hero_section{*/
+    /*    height: 500px;*/
+    /*}*/
+    .main-header {
+        will-change: inherit;
+    }
+    header .header_btn {
+        width: 90%;
+    }
+    .nav-link{
+        color: var(--black);
+        margin-bottom: 20px;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus, .nav-link:hover{
+        color:var(--black);
+    }
+    .navbar .dropdown .dropdown-menu li{
+        position: relative;
+        padding: 5px 40px;
+    }
+    .about_bottom .advantage_p {
+        padding: 20px 10px;
+    }
+    .rental_section .row::before,
+    .rental_section .row::after{
+        display: none;
+    }
+    .rental_section{
+        background: none;
+    }
+    .secHeading {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .service_card_img img {
+        display: none;
+    }
+    
+    .service_card :is(h4, p) {
+        color: black;
+    }
+    .service_card_content{
+        position: relative;
+        background: var(--white);
+    }
+    .footer .row .col-md-3:not(:nth-child(4)) .quickList {
+        margin-bottom: 20px;
+    }
+    .footer_social_links {
+        justify-content: center;
+    }
+    
+    .copyRight {
+        flex-direction: column-reverse;
+        gap: 10px;
+        text-align: center;
+    }
+    .car_card_gallery{
+        height: fit-content;
+    }
+    .car_card_content{
+        padding: 2rem;
+    }
+    .card_images_box img{
+        border-radius: 10px 10px 0 0;
+    }
+    .page_banner{
+        height: 300px;
+        text-align: center;
+    }
+}
+@media (max-width: 767.98px) {
+	html {
+		font-size: 11px;
+	}
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 320.98px) {
+}
