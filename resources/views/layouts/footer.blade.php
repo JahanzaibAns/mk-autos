@@ -184,7 +184,113 @@
                 }
             });
         });
-        </script>
+    </script>
+
+
+    <script>
+    const API_KEY = 'AIzaSyBvjwLR3_usIjUwA89X7s_exZnRtgmJtko';
+    const API_URL = 'https://translation.googleapis.com/language/translate/v2';
+    const BATCH_SIZE = 100; 
+
+    let originalContent = [];
+    let elementsToTranslate = [];
+
+    document.addEventListener('DOMContentLoaded', () => {
+    elementsToTranslate = Array.from(document.querySelectorAll(
+        'p, h1, h2, h3, h4, h5, h6, span:not(.language-selector *), li, .translate-text, div:not(.language-selector)'
+    )).filter(el => {
+        return el.children.length === 0 && el.innerText && el.innerText.trim().length > 0;
+    });
+    
+    originalContent = elementsToTranslate.map(el => el.innerText);
+    
+    console.log(`Found ${elementsToTranslate.length} elements to translate`);
+    
+    const savedLang = localStorage.getItem('preferred-language');
+    if (savedLang && savedLang !== 'en') {
+        document.getElementById('language-select').value = savedLang;
+        translatePage(savedLang);
+    }
+    });
+
+    function chunkArray(array, size) {
+    const chunks = [];
+    for (let i = 0; i < array.length; i += size) {
+        chunks.push(array.slice(i, i + size));
+    }
+    return chunks;
+    }
+
+    async function translatePage(targetLang) {
+    if (targetLang === 'en') {
+        elementsToTranslate.forEach((el, i) => {
+        el.innerText = originalContent[i];
+        });
+        return;
+    }
+    document.body.style.cursor = 'wait';
+    const selector = document.getElementById('language-select');
+    selector.disabled = true;
+    
+    let loadingDiv = document.createElement('div');
+    loadingDiv.className = 'loading-indicator';
+    loadingDiv.innerText = 'Translating page...';
+    loadingDiv.style.cssText = 'position:fixed; top:10px; left:50%; transform:translateX(-50%); background:#333; color:white; padding:10px 20px; border-radius:5px; z-index:9999;';
+    document.body.appendChild(loadingDiv);
+    
+    try {
+        const textsToTranslate = elementsToTranslate.map(el => el.innerText);
+        const textChunks = chunkArray(textsToTranslate, BATCH_SIZE);
+        const elementChunks = chunkArray(elementsToTranslate, BATCH_SIZE);
+        
+        let allTranslations = [];
+        for (let i = 0; i < textChunks.length; i++) {
+        const chunk = textChunks[i];
+        loadingDiv.innerText = `Translating... Chunk ${i + 1} of ${textChunks.length}`;
+        const response = await fetch(`${API_URL}?key=${API_KEY}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+            q: chunk,
+            target: targetLang,
+            format: 'text'
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.error) {
+            console.error('Translation error:', data.error);
+            throw new Error(data.error.message);
+        }
+        
+        allTranslations = [...allTranslations, ...data.data.translations];
+        }
+        
+        elementsToTranslate.forEach((el, i) => {
+        if (allTranslations[i] && allTranslations[i].translatedText) {
+            el.innerText = allTranslations[i].translatedText;
+        }
+        });
+        
+        localStorage.setItem('preferred-language', targetLang);
+        
+    } catch (error) {
+        console.error('Translation failed:', error);
+        alert('Translation failed: ' + error.message);
+    } finally {
+        document.body.style.cursor = 'default';
+        selector.disabled = false;
+        if (loadingDiv) loadingDiv.remove();
+    }
+    }
+
+    let translationTimeout;
+    document.getElementById('language-select').addEventListener('change', (e) => {
+    clearTimeout(translationTimeout);
+    translationTimeout = setTimeout(() => translatePage(e.target.value), 300);
+    });
+    </script>
         @yield('scripts')
 </body>
 </html>

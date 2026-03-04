@@ -89,9 +89,22 @@
 
                         <a class="nav-item nav-link {{ request()->is('blog*') ? 'active' : '' }}" href="{{ route('blogs') }}" >Blogs</a>
                     </div>
-                    <a href="{{ route('contact.us') }}" class="header_btn">
-                        Contact Us
-                    </a>
+                    <div class="btn_flex">
+                        <div class="language-selector">
+                          <select id="language-select" class="form-select">
+                            <option value="en" selected>English</option>
+                            <option value="fr">French</option>
+                            <option value="ar">Arabic</option>
+                            <option value="es">Spanish</option>
+                            <option value="nl">Dutch</option>
+                            <option value="de">German</option>
+                            <option value="it">Italian</option>
+                          </select>
+                        </div>
+                        <a href="{{ route('contact.us') }}" class="header_btn">
+                            Contact Us
+                        </a>
+                    </div>
                 </div>
             </div>
     
