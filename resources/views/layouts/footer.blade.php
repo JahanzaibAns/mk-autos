@@ -79,7 +79,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-2">
                     <a href="#" class="footerLogo">
-                        <img src="{{asset('public/assets/images/logo-white.png')}}" class="logo" alt="img">
+                        <img src="{{asset('assets/images/logo-white.png')}}" class="logo" alt="img">
                     </a>
                     <div class="quickList mt-2">
                         <ul>
@@ -116,7 +116,7 @@
                         <ul>
                             <li>
                                 <a href="#" class="btn_flex">
-                                    <img src="{{asset('public/assets/images/home/payment-logos.png')}}" alt="" class="img-fluid">
+                                    <img src="{{asset('assets/images/home/payment-logos.png')}}" alt="" class="img-fluid">
                                 </a>
                             </li>
                         </ul>
@@ -151,10 +151,10 @@
         </div>
     </footer>   
     <a href="https://wa.me/971588357508" target="_blank" class="whatsapp-float">
-        <img src="{{asset('public/assets/images/WhatsApp.svg')}}" alt="WhatsApp" />
+        <img src="{{asset('assets/images/WhatsApp.svg')}}" alt="WhatsApp" />
     </a>
      <a href="tel:+971588357508" target="_blank" class="whatsapp-float call-float">
-        <img src="{{asset('public/assets/images/Phone_icon.png')}}" alt="Call" />
+        <img src="{{asset('assets/images/Phone_icon.png')}}" alt="Call" />
     </a>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -172,7 +172,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
-    <script src="{{asset('public/assets/js/custom.min.js')}}"></script>
+    <script src="{{asset('assets/js/custom.min.js')}}"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.querySelectorAll('.quickList a').forEach(function (link) {

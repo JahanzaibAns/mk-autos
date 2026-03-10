@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="hero_main"
-                    style="background-image: url('{{ asset('public/assets/images/luxury-bg.jpeg') }}')">
+                    style="background-image: url('{{ asset('assets/images/luxury-bg.jpeg') }}')">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-5">
@@ -23,7 +23,7 @@
                             </div>
                             <!--<div class="col-md-7">-->
                             <!--    <figure class="hero_main_img_new">-->
-                            <!--        <img src="{{ asset('public/assets/images/home/banner-person1.png') }}"-->
+                            <!--        <img src="{{ asset('assets/images/home/banner-person1.png') }}"-->
                             <!--            class="img-fluid">-->
                             <!--    </figure>-->
                             <!--</div>-->
@@ -33,7 +33,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero_main"
-                    style="background-image: url('{{ asset('public/assets/images/sports-bg.jpeg') }}')">
+                    style="background-image: url('{{ asset('assets/images/sports-bg.jpeg') }}')">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-5">
@@ -48,7 +48,7 @@
                             </div>
                             <!--<div class="col-md-7">-->
                             <!--    <figure class="hero_main_img_new">-->
-                            <!--        <img src="{{ asset('public/assets/images/home/banner-person2.png') }}"-->
+                            <!--        <img src="{{ asset('assets/images/home/banner-person2.png') }}"-->
                             <!--            class="img-fluid">-->
                             <!--    </figure>-->
                             <!--</div>-->
@@ -58,7 +58,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero_main"
-                    style="background-image: url('{{ asset('public/assets/images/economy-bg.jpeg') }}')">
+                    style="background-image: url('{{ asset('assets/images/economy-bg.jpeg') }}')">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-5">
@@ -75,7 +75,7 @@
                             </div>
                             <!--<div class="col-md-7">-->
                             <!--    <figure class="hero_main_img_new">-->
-                            <!--        <img src="{{ asset('public/assets/images/home/banner-person3.png') }}"-->
+                            <!--        <img src="{{ asset('assets/images/home/banner-person3.png') }}"-->
                             <!--            class="img-fluid">-->
                             <!--    </figure>-->
                             <!--</div>-->
@@ -98,49 +98,49 @@
             </div>
             <div class="brandLogo__slider mt-4">
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo1.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo1.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo2.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo2.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo3.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo3.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo4.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo4.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo5.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo5.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo6.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo6.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo7.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo7.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo8.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo8.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo9.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo9.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo10.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo10.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo11.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo11.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo12.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo12.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo13.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo13.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo14.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo14.webp') }}" class="img-fluid">
                 </figure>
                 <figure class="brand-logos__img">
-                    <img src="{{ asset('public/assets/images/home/logo15.webp') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/home/logo15.webp') }}" class="img-fluid">
                 </figure>
             </div>
         </div>
@@ -149,7 +149,7 @@
 
     <!-- About Section Start -->
     <!--<section class="home_about_bg padd-y"-->
-    <!--    style="background-image: url('{{ asset('public/assets/images/home/plain-bg.jpeg') }}')">-->
+    <!--    style="background-image: url('{{ asset('assets/images/home/plain-bg.jpeg') }}')">-->
     <!--    <div class="container">-->
     <!--        <div class="row">-->
     <!--            <div class="col">-->
@@ -185,7 +185,7 @@
     <!--                <div class="d-md-flex align-items-center gap-3">-->
     <!--                    <div>-->
     <!--                        <img class="mx-auto mx-md-0 d-block"-->
-    <!--                            src="{{ ('public/assets/images/home/contract_terms.webp') }}"-->
+    <!--                            src="{{ ('assets/images/home/contract_terms.webp') }}"-->
     <!--                            alt="our-advantage" />-->
     <!--                    </div>-->
     <!--                    <div>-->
@@ -197,7 +197,7 @@
     <!--                <div class="d-md-flex align-items-center gap-3">-->
     <!--                    <div>-->
     <!--                        <img class="mx-auto mx-md-0 d-block"-->
-    <!--                            src="{{ asset('public/assets/images/home/free_delivery.webp') }}"-->
+    <!--                            src="{{ asset('assets/images/home/free_delivery.webp') }}"-->
     <!--                            alt="free-delivery" />-->
     <!--                    </div>-->
     <!--                    <div>-->
@@ -209,7 +209,7 @@
     <!--                <div class="d-md-flex align-items-center gap-3">-->
     <!--                    <div>-->
     <!--                        <img class="mx-auto mx-md-0 d-block"-->
-    <!--                            src="{{ asset('public/assets/images/home/free_service.webp') }}"-->
+    <!--                            src="{{ asset('assets/images/home/free_service.webp') }}"-->
     <!--                            alt="maintenance" />-->
     <!--                    </div>-->
     <!--                    <div>-->
@@ -221,7 +221,7 @@
     <!--                <div class="d-md-flex align-items-center gap-3">-->
     <!--                    <div>-->
     <!--                        <img class="mx-auto mx-md-0 d-block"-->
-    <!--                            src="{{ asset('public/assets/images/home/easy_booking.webp') }}"-->
+    <!--                            src="{{ asset('assets/images/home/easy_booking.webp') }}"-->
     <!--                            alt="booking-process" />-->
     <!--                    </div>-->
     <!--                    <div>-->
@@ -362,21 +362,21 @@
     
                             <div class="product_cardDetails">
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->seat->seat ?? 'N/A' }} Seats
                                 </span>
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->transmission->transmission ?? 'N/A' }}
                                 </span>
                                 @if($kilometers)
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
                                     {{ $kilometers }} km
                                 </span>
                                 @endif
                                 <span class="no_deposit">
-                                    <!--<img src="{{ asset('public/assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
+                                    <!--<img src="{{ asset('assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
                                     <span class="aed_sign">D</span>
                                     No Deposit
                                 </span>
@@ -510,21 +510,21 @@
     
                             <div class="product_cardDetails">
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->seat->seat ?? 'N/A' }} Seats
                                 </span>
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->transmission->transmission ?? 'N/A' }}
                                 </span>
                                 @if($kilometers)
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
                                     {{ $kilometers }} km
                                 </span>
                                 @endif
                                 <span class="no_deposit">
-                                    <!--<img src="{{ asset('public/assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
+                                    <!--<img src="{{ asset('assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
                                     <span class="aed_sign">D</span>
                                     No Deposit
                                 </span>
@@ -658,21 +658,21 @@
     
                             <div class="product_cardDetails">
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon1.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->seat->seat ?? 'N/A' }} Seats
                                 </span>
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon2.png') }}" alt="image" class="img-fluid" />
                                     {{ $car->transmission->transmission ?? 'N/A' }}
                                 </span>
                                 @if($kilometers)
                                 <span>
-                                    <img src="{{ asset('public/assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
+                                    <img src="{{ asset('assets/images/home/detail-icon3.png') }}" alt="image" class="img-fluid" />
                                     {{ $kilometers }} km
                                 </span>
                                 @endif
                                 <span class="no_deposit">
-                                    <!--<img src="{{ asset('public/assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
+                                    <!--<img src="{{ asset('assets/images/home/detail-icon4.png') }}" alt="image" class="img-fluid" />-->
                                     <span class="aed_sign">D</span>
                                     No Deposit
                                 </span>
@@ -787,7 +787,7 @@
     <!--                        </div>-->
     <!--                        <div class="col-md-4 mt-3 mt-md-0">-->
     <!--                            <img class="img-fluid d-block mx-auto"-->
-    <!--                                src="{{ asset('public/assets/images/home/document-resident.webp') }}" alt="document-resident" />-->
+    <!--                                src="{{ asset('assets/images/home/document-resident.webp') }}" alt="document-resident" />-->
     <!--                        </div>-->
     <!--                    </div>-->
     <!--                </div>-->
@@ -816,7 +816,7 @@
     <!--                        </div>-->
     <!--                        <div class="col-md-4 mt-3 mt-md-0">-->
     <!--                            <img class="img-fluid d-block mx-auto"-->
-    <!--                                src="{{ asset('public/assets/images/home/document-visitor.webp') }}" alt="document-visitor" />-->
+    <!--                                src="{{ asset('assets/images/home/document-visitor.webp') }}" alt="document-visitor" />-->
     <!--                        </div>-->
     <!--                    </div>-->
     <!--                </div>-->
@@ -844,7 +844,7 @@
                 <div class="col-md-5">
                     <figure class="rental_image">
                         <img class="d-block mx-auto w-100"
-                            src="{{ asset('public/assets/images/home/process-car1.png') }}" alt="process-step" />
+                            src="{{ asset('assets/images/home/process-car1.png') }}" alt="process-step" />
                     </figure>
                 </div>
             </div>
@@ -860,7 +860,7 @@
                 <div class="col-md-5">
                     <figure class="rental_image">
                         <img class="d-block mx-auto w-100"
-                            src="{{ asset('public/assets/images/home/process-car2.png') }}"
+                            src="{{ asset('assets/images/home/process-car2.png') }}"
                             alt="process-step" />
                     </figure>
                 </div>
@@ -877,7 +877,7 @@
                 <div class="col-md-5">
                     <figure class="rental_image">
                         <img class="d-block mx-auto w-100"
-                            src="{{ asset('public/assets/images/home/process-car3.png') }}" alt="process-step" />
+                            src="{{ asset('assets/images/home/process-car3.png') }}" alt="process-step" />
                     </figure>
                 </div>
             </div>
@@ -894,7 +894,7 @@
                         <div class="row g-4">
                             <div class="col-md-6">
                                 <div class="bg-light p-3 rounded mx-2 box_shadow">
-                                    <img src="{{ asset('public/assets/images/home/choose-icon1.png') }}"
+                                    <img src="{{ asset('assets/images/home/choose-icon1.png') }}"
                                         alt="why" />
                                     <h5 class="mt-3 fw-bold">Transparent Pricing, No Surprises!</h5>
                                     <p>
@@ -903,7 +903,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="bg-light p-3 rounded mx-2 box_shadow">
-                                    <img src="{{ asset('public/assets/images/home/choose-icon2.png') }}"
+                                    <img src="{{ asset('assets/images/home/choose-icon2.png') }}"
                                         alt="why" />
                                     <h5 class="mt-3 fw-bold">Unbeatable Car Rental Rates </h5>
                                     <p>
@@ -913,7 +913,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="bg-light p-3 rounded mx-2 box_shadow">
-                                    <img src="{{ asset('public/assets/images/home/choose-icon3.png') }}"
+                                    <img src="{{ asset('assets/images/home/choose-icon3.png') }}"
                                         alt="why" />
                                     <h5 class="mt-3 fw-bold">Wide Range of Vehicles</h5>
                                     <p>
@@ -923,7 +923,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="bg-light p-3 rounded mx-2 box_shadow">
-                                    <img src="{{ asset('public/assets/images/home/choose-icon4.png') }}"
+                                    <img src="{{ asset('assets/images/home/choose-icon4.png') }}"
                                         alt="why" />
                                     <h5 class="mt-3 fw-bold">Round-the-Clock Customer Support </h5>
                                     <p>
@@ -982,11 +982,11 @@
                 <div class="col-md-4">
                     <div class="service_card">
                         <figure class="service_card_img">
-                            <img src="{{asset('public/assets/images/home/grid-1.png')}}"
+                            <img src="{{asset('assets/images/home/grid-1.png')}}"
                                 alt="packages" />
                         </figure>
                         <div class="service_card_content">
-                            <img src="{{ asset('public/assets/images/home/car-icon1.png') }}" alt="packages" />
+                            <img src="{{ asset('assets/images/home/car-icon1.png') }}" alt="packages" />
                             <h4 class="fw-bold mt-4 mb-4">Short-Term Car Rentals</h4>
                             <p class="mb-0">
                                 Experience convenience and flexibility with our short-term car rental options at MK Autos Whether you're in Dubai for a day, a week, or a month, we have the perfect vehicle for your temporary travel needs. Benefit from our comprehensive emergency roadside assistance and 24/7 support, ensuring a smooth and stress-free rental experience.
@@ -997,11 +997,11 @@
                 <div class="col-md-4 mt-4 mt-md-0">
                     <div class="service_card">
                         <figure class="service_card_img">
-                            <img src="{{asset('public/assets/images/home/grid-2.png')}}"
+                            <img src="{{asset('assets/images/home/grid-2.png')}}"
                                 alt="packages" />
                         </figure>
                         <div class="service_card_content">
-                            <img src="{{ asset('public/assets/images/home/car-icon2.png') }}"
+                            <img src="{{ asset('assets/images/home/car-icon2.png') }}"
                                 alt="packages" />
                             <h4 class="fw-bold mt-4 mb-4">Annual Rentals</h4>
                             <p class="mb-0">Simplify your transportation needs with MK Autos annual rental plans.
@@ -1018,11 +1018,11 @@
                 <div class="col-md-4 mt-4 mt-md-0">
                     <div class="service_card">
                         <figure class="service_card_img">
-                            <img src="{{asset('public/assets/images/home/grid-3.png')}}"
+                            <img src="{{asset('assets/images/home/grid-3.png')}}"
                                 alt="packages" />
                         </figure>
                         <div class="service_card_content">
-                            <img src="{{ asset('public/assets/images/home/car-icon3.png') }}"
+                            <img src="{{ asset('assets/images/home/car-icon3.png') }}"
                                 alt="packages" />
                             <h4 class="fw-bold mt-4 mb-4">Long Term Car Rentals</h4>
                             <p class="mb-0">Embark on a journey of convenience and reliability with our long-term car rental
@@ -1385,7 +1385,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px" height="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1397,7 +1397,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi1.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi1.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1411,7 +1411,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1423,7 +1423,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi2.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi2.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1437,7 +1437,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1448,7 +1448,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi3.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi3.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1462,7 +1462,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1472,7 +1472,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi4.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi4.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1486,7 +1486,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1498,7 +1498,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi5.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi5.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1512,7 +1512,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1525,7 +1525,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi6.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi6.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1539,7 +1539,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1551,7 +1551,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi6.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi6.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1565,7 +1565,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1577,7 +1577,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi6.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi6.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1591,7 +1591,7 @@
             <!--    <div>-->
             <!--        <div class="testimonial_card rounded bg-light px-3 py-4">-->
             <!--            <img width="50px"-->
-            <!--                src="{{asset('public/assets/images/home/testimonial-icon.webp')}}"-->
+            <!--                src="{{asset('assets/images/home/testimonial-icon.webp')}}"-->
             <!--                alt="user" />-->
             <!--            <div class="pt-4">-->
             <!--                <div class="testimonial_cardContent" data-lenis-prevent>-->
@@ -1603,7 +1603,7 @@
             <!--                <div class="d-flex align-items-center gap-3">-->
                                 <!--<div>-->
                                 <!--    <img class="rounded-circle"-->
-                                <!--        src="{{ asset('public/assets/images/home/testi6.webp') }}"-->
+                                <!--        src="{{ asset('assets/images/home/testi6.webp') }}"-->
                                 <!--        alt="user">-->
                                 <!--</div>-->
             <!--                    <div>-->
@@ -1629,12 +1629,12 @@
 
         if (window.scrollY > 50 && !isSticky) {
             header.classList.add('sticky-header');
-            logo.src = '{{ asset('public/assets/images/logo-blue.png') }}';
+            logo.src = '{{ asset('assets/images/logo-blue.png') }}';
             isSticky = true;
         } 
         else if (window.scrollY <= 50 && isSticky) {
             header.classList.remove('sticky-header');
-            logo.src = '{{ asset('public/assets/images/logo-blue.png') }}';
+            logo.src = '{{ asset('assets/images/logo-blue.png') }}';
             isSticky = false;
         }
     }
@@ -1642,7 +1642,7 @@
     function handleResize() {
         if (window.innerWidth < 992 && isSticky) {
             header.classList.remove('sticky-header');
-            logo.src = '{{ asset('public/assets/images/logo-blue.png') }}';
+            logo.src = '{{ asset('assets/images/logo-blue.png') }}';
             isSticky = false;
         }
     }

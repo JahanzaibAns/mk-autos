@@ -294,7 +294,9 @@
                                 </div>
                                 <div class="row car_add_form">
                                     {!! \App\Helpers\DropDownHelper::brandModelDropdown($car->model->brand_id ?? null, $car->model_id) !!}
-                                    {!! \App\Helpers\DropDownHelper::categoryDropdown($car->category_id) !!}
+                                    <div class="col-md-12 mb-3">
+                                        {!! \App\Helpers\RadioBoxHelper::categoryCheckBoxes($car->categories->pluck('id')->toArray()) !!}
+                                    </div>
                                     
                                     <div class="col-md-4 col-12">
                                         <label for="version">Body Type</label>
@@ -1277,11 +1279,16 @@ window.debugFormData = function() {
         
         // Form validation and submission
         $(document).ready(function () {
+            // Custom validation for categories checkboxes
+            $.validator.addMethod("atLeastOneCategory", function(value, element) {
+                return $('input[name="categories[]"]:checked').length > 0;
+            }, "Please select at least one category");
+            
             let validator = $("#my-form").validate({
             rules: {
                 brand_id: { required: true },
                 model_id: { required: true },
-                category_id: { required: true },
+                "categories[]": { atLeastOneCategory: true },
                 body_type_id: { required: true },
                 make_year_id: { required: true },
                 car_location: { required: true, minlength: 3 },
@@ -1300,7 +1307,7 @@ window.debugFormData = function() {
             messages: {
                 brand_id: "Please select a brand",
                 model_id: "Please select a model",
-                category_id: "Please select a category",
+                "categories[]": "Please select at least one category",
                 body_type_id: "Please select a body type",
                 make_year_id: "Please select a make year",
                 car_location: {

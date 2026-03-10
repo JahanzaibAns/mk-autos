@@ -605,7 +605,7 @@
                                                 : (
                                                     $similarCar->images->first()
                                                         ? asset('public/storage/car_images/' . $similarCar->images->first()->image)
-                                                        : asset('public/assets/images/no-car.png')
+                                                        : asset('assets/images/no-car.png')
                                                   ) }}"
                                              alt="Rent {{ $similarCar->model->name }} {{ $similarCar->makeYear->year ?? '' }} in Dubai">
                                     </a>
@@ -646,12 +646,12 @@
                                     {{-- Details --}}
                                     <div class="product_cardDetails">
                                         <span>
-                                            <img src="{{ asset('public/assets/images/home/detail-icon1.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/home/detail-icon1.png') }}" alt="">
                                             {{ $similarCar->seat->seat ?? '-' }} Seats
                                         </span>
             
                                         <span>
-                                            <img src="{{ asset('public/assets/images/home/detail-icon2.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/home/detail-icon2.png') }}" alt="">
                                             {{ $similarCar->transmission->transmission ?? 'Automatic' }}
                                         </span>
             

@@ -6,7 +6,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     <link rel="canonical" href="{{ url()->current() }}" />
-    <link rel="shortcut icon" href="{{asset('public/assets/images/favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-    <link rel="stylesheet" href="{{asset('public/assets/css/custom.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/custom.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />
     <meta name="google-site-verification" content="HNhYiQy8nNVhOdc-GCMIiMryY7PgQqO6J4RS3YrwWnc" />
     
     <!-- Google tag (gtag.js) -->
@@ -46,7 +46,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a href="{{route('index')}}" class="navbar-brand">
-                <img src="{{ asset($isHome ? 'public/assets/images/logo-blue.png' : 'public/assets/images/logo-blue.png') }}" alt="Logo" class="logo">
+                <img src="{{ asset($isHome ? 'assets/images/logo-blue.png' : 'assets/images/logo-blue.png') }}" alt="Logo" class="logo">
             </a>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
                 aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
             </button>
             <div class="offcanvas offcanvas-end" id="navbarOffcanvas" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <img src="{{asset('public/assets/images/logo-blue.png')}}" alt="Filingzone" class="logo">
+                    <img src="{{asset('assets/images/logo-blue.png')}}" alt="Filingzone" class="logo">
                     <button type="button" class="btn-close btn-close-dark text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>

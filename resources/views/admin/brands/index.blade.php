@@ -35,7 +35,7 @@
                                                 <td>{{ $index + 1 }}</td>
                                                 <td>
                                                     @if ($brand->image)
-                                                        <img src="{{ asset('public/assets/storage/brand_images/' . $brand->image) }}" alt="brand" height="50" width="50" style="object-fit:contain;">
+                                                        <img src="{{ asset('assets/storage/brand_images/' . $brand->image) }}" alt="brand" height="50" width="50" style="object-fit:contain;">
                                                     @else
                                                         N/A
                                                     @endif

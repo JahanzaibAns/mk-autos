@@ -18,7 +18,6 @@ class Car extends Model
         'transmission_id',
         'fuel_type_id',
         'body_type_id',
-        'category_id',
         'make_year_id',
         'model_id',
         'slug',
@@ -103,9 +102,9 @@ class Car extends Model
         return $this->belongsTo(BodyType::class);
     }
 
-    public function category()
+    public function categories()
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsToMany(Category::class, 'car_category');
     }
 
     public function makeYear()

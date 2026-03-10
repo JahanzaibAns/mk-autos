@@ -13,9 +13,9 @@
         $metaDescription = $category->meta_description ?? null;
         $categoryDescription = $category->description ?? '';
 
-    } elseif (isset($cars) && $cars->count() > 0 && optional($cars->first())->category) {
+    } elseif (isset($cars) && $cars->count() > 0 && optional($cars->first())->categories && $cars->first()->categories->count() > 0) {
 
-        $firstCategory = $cars->first()->category;
+        $firstCategory = $cars->first()->categories->first();
 
         $fullCategoryName = $firstCategory->category ?? 'Car';
         $metaTitle = $firstCategory->meta_title ?? null;

@@ -10,6 +10,7 @@ use App\Models\Bag;
 use App\Models\Transmission;
 use App\Models\FuelType;
 use App\Models\Feature;
+use App\Models\Category;
 
 class RadioBoxHelper
 {
@@ -100,6 +101,35 @@ class RadioBoxHelper
         }
 
         $html .= "</ul>\n";
+        return $html;
+    }
+
+    public static function categoryCheckBoxes($selected = [])
+    {
+        $categories = Category::where('status', 1)->get();
+        $html = '<label for="categories" class="col-md-4 align-content-center">Car Categories</label>';
+        $html .= '<div class="col-md-8">';
+        $html .= "<div class=\"row\">\n";
+
+        foreach ($categories as $category) {
+            $id = $category->id;
+            $label = $category->category;
+            $inputId = "category_{$id}";
+            $isChecked = in_array($id, $selected) ? 'checked' : '';
+
+            $html .= <<<HTML
+            <div class="col-md-6 mb-2">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="{$inputId}" name="categories[]" value="{$id}" {$isChecked}>
+                    <label class="form-check-label" for="{$inputId}">{$label}</label>
+                </div>
+            </div>
+
+            HTML;
+        }
+
+        $html .= "</div>\n";
+        $html .= '</div>';
         return $html;
     }
 }

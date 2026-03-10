@@ -31,7 +31,8 @@ class CarController extends Controller
         $validated = $request->validate([
             'brand_id' => 'required|exists:brands,id',
             'model_id' => 'required|exists:models,id',
-            'category_id' => 'required|exists:categories,id',
+            'categories' => 'required|array|min:1',
+            'categories.*' => 'exists:categories,id',
             'body_type_id' => 'required|exists:body_types,id',
             'make_year_id' => 'required|exists:make_years,id',
             'car_location' => 'required|string',
@@ -64,7 +65,6 @@ class CarController extends Controller
     
             $car->fill([
                 'model_id' => $request->model_id,
-                'category_id' => $request->category_id,
                 'body_type_id' => $request->body_type_id,
                 'make_year_id' => $request->make_year_id,
                 'car_location' => $request->car_location,
@@ -115,6 +115,9 @@ class CarController extends Controller
     
             // Features
             $car->features()->sync($request->input('features', []));
+            
+            // Categories
+            $car->categories()->sync($request->input('categories', []));
     
             // Gallery Images
             if ($request->hasFile('images')) {
@@ -141,7 +144,7 @@ class CarController extends Controller
 
      public function edit($id)
     {
-        $car = Car::findOrFail($id);
+        $car = Car::with('categories')->findOrFail($id);
         return view('admin.cars.edit', compact('car'));
     }
 

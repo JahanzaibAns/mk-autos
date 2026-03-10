@@ -18,6 +18,6 @@ class Category extends Model
 
     public function cars()
     {
-        return $this->hasMany(Car::class);
+        return $this->belongsToMany(Car::class, 'car_category');
     }
 }

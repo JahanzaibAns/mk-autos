@@ -64,13 +64,13 @@
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="{{ asset('public/assets/images/home/about-1.jpeg') }}" alt="Our Mission"
+                    <img src="{{ asset('assets/images/home/about-1.jpeg') }}" alt="Our Mission"
                         class="img-fluid d-block mx-auto w-100 rounded">
                 </div>
             </div>
             <div class="row g-4 py-5 align-items-center">
                 <div class="col-lg-6">
-                    <img src="{{ asset('public/assets/images/home/about-2.png') }}" alt="Our Mission"
+                    <img src="{{ asset('assets/images/home/about-2.png') }}" alt="Our Mission"
                         class="img-fluid d-block mx-auto w-100 rounded">
                 </div>
                 <div class="col-lg-6">

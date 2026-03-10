@@ -111,7 +111,7 @@ class GeneralHelper
             'features', 
             'fuelType', 
             'transmission', 
-            'category', 
+            'categories', 
             'interiorColor', 
             'exteriorColor', 
             'seat', 
@@ -126,7 +126,7 @@ class GeneralHelper
         $features      = $cars->pluck('features')->flatten()->filter()->unique('id');
         $fuelTypes     = $cars->pluck('fuelType')->filter()->unique('id');
         $transmissions = $cars->pluck('transmission')->filter()->unique('id');
-        $categories    = $cars->pluck('category')->filter()->unique('id');
+        $categories    = $cars->pluck('categories')->flatten()->filter()->unique('id');
         $interiorColors= $cars->pluck('interiorColor')->filter()->unique('id');
         $exteriorColors= $cars->pluck('exteriorColor')->filter()->unique('id');
         $seats         = $cars->pluck('seat')->filter()->unique('id');

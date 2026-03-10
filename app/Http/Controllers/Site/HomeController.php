@@ -22,7 +22,7 @@ class HomeController extends Controller
             'prices',
             'interiorColor',
             'exteriorColor',
-            'category',
+            'categories',
             'spec',
             'transmission',
             'fuelType',
@@ -34,7 +34,9 @@ class HomeController extends Controller
         ])
         ->where('status', 'active')
         ->where('is_featured', 1)
-        ->where('category_id', 1)
+        ->whereHas('categories', function($query) {
+            $query->where('categories.id', 1);
+        })
         ->orderBy('id', 'desc')
         ->get();
 
@@ -45,7 +47,7 @@ class HomeController extends Controller
             'prices',
             'interiorColor',
             'exteriorColor',
-            'category',
+            'categories',
             'spec',
             'transmission',
             'fuelType',
@@ -57,7 +59,9 @@ class HomeController extends Controller
         ])
         ->where('status', 'active')
         ->where('is_featured', 1)
-        ->where('category_id', 2)
+        ->whereHas('categories', function($query) {
+            $query->where('categories.id', 2);
+        })
         ->orderBy('id', 'desc')
         ->get();
 
@@ -68,7 +72,7 @@ class HomeController extends Controller
             'prices',
             'interiorColor',
             'exteriorColor',
-            'category',
+            'categories',
             'spec',
             'transmission',
             'fuelType',
@@ -80,7 +84,9 @@ class HomeController extends Controller
         ])
         ->where('status', 'active')
         ->where('is_featured', 1)
-        ->where('category_id', 3)
+        ->whereHas('categories', function($query) {
+            $query->where('categories.id', 3);
+        })
         ->orderBy('id', 'desc')
         ->get();
         
@@ -91,7 +97,7 @@ class HomeController extends Controller
             'prices',
             'interiorColor',
             'exteriorColor',
-            'category',
+            'categories',
             'spec',
             'transmission',
             'fuelType',

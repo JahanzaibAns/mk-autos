@@ -21,7 +21,7 @@ class CarController extends Controller
                 'prices',
                 'interiorColor',
                 'exteriorColor',
-                'category',
+                'categories',
                 'spec',
                 'transmission',
                 'fuelType',
@@ -47,7 +47,9 @@ class CarController extends Controller
     
             // Filter by multiple categories
             ->when($request->category_ids, function ($query, $categoryIds) {
-                $query->whereIn('category_id', (array) $categoryIds);
+                $query->whereHas('categories', function ($q) use ($categoryIds) {
+                    $q->whereIn('categories.id', (array) $categoryIds);
+                });
             })
     
             // Filter by multiple fuel types
@@ -160,7 +162,7 @@ class CarController extends Controller
             'prices',
             'interiorColor',
             'exteriorColor',
-            'category',
+            'categories',
             'spec',
             'transmission',
             'fuelType',
@@ -226,7 +228,7 @@ class CarController extends Controller
                 'prices',
                 'interiorColor',
                 'exteriorColor',
-                'category',
+                'categories',
                 'spec',
                 'transmission',
                 'fuelType',
@@ -286,7 +288,7 @@ class CarController extends Controller
                 'prices',
                 'interiorColor',
                 'exteriorColor',
-                'category',
+                'categories',
                 'spec',
                 'transmission',
                 'fuelType',
@@ -344,7 +346,7 @@ class CarController extends Controller
                 'prices',
                 'interiorColor',
                 'exteriorColor',
-                'category',
+                'categories',
                 'spec',
                 'transmission',
                 'fuelType',
@@ -354,7 +356,7 @@ class CarController extends Controller
                 'bag',
                 'makeYear'
             ])
-            ->whereHas('category', function ($query) use ($slug) {
+            ->whereHas('categories', function ($query) use ($slug) {
                 $query->where('slug', $slug);
             })
             ->where('status', 'active')
