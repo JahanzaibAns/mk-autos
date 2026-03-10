@@ -1052,11 +1052,21 @@
                     </p>
                 </div>
         
-                <form class="booking-form" action="{{ route('home.enquiry') }}" method="POST">
+                <form class="booking-form" id="homeEnquiryForm" action="{{ route('home.enquiry') }}" method="POST">
                     @csrf
                     @if (session('success'))
                         <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom: 20px;">
                             {{ session('success') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
+                    @if ($errors->any())
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-bottom: 20px;">
+                            <ul class="mb-0">
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
@@ -1066,7 +1076,7 @@
                             <span class="input-group-text">
                                 <i class="fa-regular fa-user"></i>
                             </span>
-                            <input type="text" class="form-control" name="name" placeholder="Your Full Name" required>
+                            <input type="text" class="form-control" name="name" placeholder="Your Full Name" value="{{ old('name') }}" required>
                         </div>
                     </div>
         
@@ -1075,19 +1085,19 @@
                             <span class="input-group-text">
                                 <i class="fa-regular fa-envelope"></i>
                             </span>
-                            <input type="email" class="form-control" name="email" placeholder="Your Email Address" required>
+                            <input type="email" class="form-control" name="email" placeholder="Your Email Address" value="{{ old('email') }}" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="phone-input">
-                            <input type="tel" class="form-control phone_mask" name="phone" placeholder="Phone Number" required>
+                            <input type="tel" class="form-control phone_mask" name="phone" placeholder="Phone Number" value="{{ old('phone') }}" required>
                         </div>
-                        <input type="hidden" name="country_code" class="country_code" value="">
+                        <input type="hidden" name="country_code" class="country_code" value="{{ old('country_code', '+971') }}">
         
                     </div>
                     <div class="form-group">
                         <div class="input-group">
-                            <textarea name="message" id="message" placeholder="Your Message" class="form-control" rows="5"></textarea>
+                            <textarea name="message" id="message" placeholder="Your Message" class="form-control" rows="5">{{ old('message') }}</textarea>
                         </div>
                     </div>
         
@@ -1734,6 +1744,20 @@
         updateCode();
     });
 
+});
+
+// Ensure country_code is set before form submission
+$("#homeEnquiryForm").on("submit", function(e) {
+    var countryCodeField = $(this).find(".country_code");
+    if (!countryCodeField.val() || countryCodeField.val() === "") {
+        var phoneInput = $(this).find(".phone_mask");
+        if (phoneInput.length && phoneInput.data("intlTelInput")) {
+            var countryData = phoneInput.intlTelInput("getSelectedCountryData");
+            countryCodeField.val("+" + countryData.dialCode);
+        } else {
+            countryCodeField.val("+971"); // Default to UAE
+        }
+    }
 });
     // Success Popup Functions
 function showSuccessPopup() {
