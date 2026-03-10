@@ -2,7 +2,7 @@
 @section('title', 'Luxury & Supercar Rental Dubai | No Deposit | MK Luxury Car Rental')
 @section('description', 'Rent luxury cars in Dubai with top deals at MK Luxury Car Rental! Choose supercars, SUVs, sports cars, sedans, convertibles & exotics from our premium fleet. Easy booking, no deposit or hidden fees, free delivery, 24/7 support—hassle-free experience. Book now!')
 @section('content')
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"/>
     <section class="hero_section hero_section_new hero_slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -233,7 +233,7 @@
     <!--    </div>-->
     <!--</section>-->
     <!-- Advantages Section End -->
-    
+     
     <section class="product_section py-5">
         <div class="container">
             <h2 class="secHeading text-center">Explore by <span>Category</span></h2>
@@ -1037,7 +1037,81 @@
         </div>
     </section>
     <!-- Our Services End -->
-
+    <section class="home-form-sec">
+        <div class="container">
+            <div class="booking-form-wrapper">
+                <div class="booking-header">
+                    <div class="luxury-badge">
+                        <i class="fa-solid fa-crown"></i>
+                        Luxury Car
+                    </div>
+                    <h3>ENQUIRE <span>NOW</span></h3>
+                    <p>
+                        <i class="fa-regular fa-calendar-check"></i>
+                        Send us your inquiry
+                    </p>
+                </div>
+        
+                <form class="booking-form" action="">
+                    @csrf
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="fa-regular fa-user"></i>
+                            </span>
+                            <input type="text" class="form-control" name="name" placeholder="Your Full Name" required>
+                        </div>
+                    </div>
+        
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="fa-regular fa-envelope"></i>
+                            </span>
+                            <input type="email" class="form-control" name="email" placeholder="Your Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="phone-input">
+                            <input type="tel" class="form-control phone_mask" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <input type="hidden" name="country_code" class="country_code" value="">
+        
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <textarea name="message" id="message" placeholder="Your Message" class="form-control" rows="5"></textarea>
+                        </div>
+                    </div>
+        
+                    <button type="submit" class="btn-book">
+                        Enquire Now
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </button>
+        
+                    <div class="booking-benefits">
+                        <div class="booking-benefit-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                        <div class="booking-benefit-item">
+                            <i class="fa-regular fa-shield"></i>
+                            <span>Secure Enquiry</span>
+                        </div>
+                        <div class="booking-benefit-item">
+                            <i class="fa-regular fa-gem"></i>
+                            <span>No Hidden Fees</span>
+                        </div>
+                        <div class="booking-benefit-item">
+                            <i class="fa-regular fa-bolt"></i>
+                            <span>Instant Reply</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- FAQ Section -->
     <section class="faq_section bg_light_blue py-5">
         <div class="container">
@@ -1617,6 +1691,68 @@
             <!--</div>-->
         </div>
     </section>
+        <!-- Success Popup -->
+<div class="success-popup-overlay" id="successPopup">
+    <div class="success-popup">
+        <i class="fa-regular fa-circle-check"></i>
+        <h3>Thank You!</h3>
+        <p>Your booking enquiry has been sent successfully.<br>We will contact you shortly.</p>
+        <button class="btn-close-popup" onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+<script>
+      $(".phone_mask").each(function () {
+
+    var input = $(this);
+
+    // init plugin on this specific input
+    input.intlTelInput({
+        initialCountry: "ae",
+        separateDialCode: true,
+    });
+
+    // function to update hidden country code field
+    function updateCode() {
+        var countryData = input.intlTelInput("getSelectedCountryData");
+        input.closest(".form-group").find(".country_code").val("+" + countryData.dialCode);
+    }
+
+    // set initial value
+    updateCode();
+
+    // update when country changes
+    input.on("countrychange", function () {
+        updateCode();
+    });
+
+});
+    // Success Popup Functions
+function showSuccessPopup() {
+    document.getElementById('successPopup').style.display = 'flex';
+}
+
+function closePopup() {
+    document.getElementById('successPopup').style.display = 'none';
+}
+
+// Close popup when clicking outside
+window.onclick = function(event) {
+    var popup = document.getElementById('successPopup');
+    if (event.target == popup) {
+        popup.style.display = 'none';
+    }
+}
+
+// Show popup if success message exists
+@if(session('success'))
+    window.onload = function() {
+        showSuccessPopup();
+    }
+@endif
+</script>
 @section('scripts')
 
 <script>
@@ -1650,7 +1786,6 @@
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
 </script>
-
 
 @endsection
 
