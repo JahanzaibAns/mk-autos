@@ -34,27 +34,34 @@
         </h2>
         <div class="row g-4">
             <div class="col-lg-9">
-                <form>
+                <form action="{{ route('contact.store') }}" method="POST">
+                    @csrf
+                    @if (session('success'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            {{ session('success') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
                     <div class="row g-5">
                         <div class="col-lg-6">
                             <label for="first-name" class="form-label">Your First Name</label>
-                            <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" class="form-control">
+                            <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" class="form-control" required>
                         </div>
                         <div class="col-lg-6">
                             <label for="last-name" class="form-label">Your Last Name</label>
-                            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" class="form-control">
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" class="form-control" required>
                         </div>
                         <div class="col-lg-6">
                             <label for="email" class="form-label">Your Email</label>
-                            <input type="text" name="email" id="email" placeholder="Enter your email address" class="form-control">
+                            <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control" required>
                         </div>
                         <div class="col-lg-6">
                             <label for="phone" class="form-label">Your Phone Number</label>
-                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" class="form-control">
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" class="form-control" required>
                         </div>
                         <div class="col-12">
                             <label for="message" class="form-label">Message</label>
-                            <textarea name="message" id="message" class="form-control" placeholder="Message" rows="5"></textarea>
+                            <textarea name="message" id="message" class="form-control" placeholder="Message" rows="5" required></textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn themeBtn">Submit</button>

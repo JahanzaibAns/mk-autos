@@ -1052,8 +1052,14 @@
                     </p>
                 </div>
         
-                <form class="booking-form" action="">
+                <form class="booking-form" action="{{ route('home.enquiry') }}" method="POST">
                     @csrf
+                    @if (session('success'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom: 20px;">
+                            {{ session('success') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
                     
                     <div class="form-group">
                         <div class="input-group">

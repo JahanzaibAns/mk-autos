@@ -34,7 +34,7 @@ class CarBookingController extends Controller
             'car_id' => $request->car_id
         ];
     
-        Mail::to('jahanzebansari503@gmail.com', 'admin@mkautos.ae')->send(new CarEnquiryMail($data));
+        Mail::to(['jahanzebansari503@gmail.com', 'admin@mkautos.ae'])->send(new CarEnquiryMail($data));
         
     
         return back()->with('success', 'Booking enquiry sent successfully!');

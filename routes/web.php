@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Site\BlogController as BController;
 use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\Site\CarBookingController;
+use App\Http\Controllers\Site\ContactController;
 
 
 
@@ -29,6 +30,8 @@ Route::get('/blog/{slug}', [BController::class, 'blogDetails'])->name('blog.deta
 Route::get('/contact-us', function () {
     return view('contact-us');
 })->name('contact.us');
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/home/enquiry', [ContactController::class, 'homeEnquiry'])->name('home.enquiry');
 
 Route::get('/about-us', function () {
     return view('about-us');
